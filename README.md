@@ -1,13 +1,18 @@
-Figment,
-by Phoenix Studios
+#Figment
+###_by Phoenix Studios_
 
-Alexander Atanassov,\n
-Margo Sikes,
-Jabari Weathers,
+
+Alexander Atanassov
+
+Margo Sikes
+
+Jabari Weathers
+
 Eric Zhu
 
-----------------------------------------
-----------------------------------------
+
+---
+---
 
 Change log:
 
