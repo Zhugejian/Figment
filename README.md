@@ -1,7 +1,7 @@
 Figment,
 by Phoenix Studios
 
-Alexander Atanassov,
+Alexander Atanassov,\n
 Margo Sikes,
 Jabari Weathers,
 Eric Zhu
