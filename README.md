@@ -1,9 +1,13 @@
-Figment
+Figment,
 by Phoenix Studios
 
+
 Alexander Atanassov
+
 Margo Sikes
+
 Jabari Weathers
+
 Eric Zhu
 
 ====================
