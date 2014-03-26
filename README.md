@@ -2,14 +2,12 @@
 ###_by Phoenix Studios_
 
 
-Alexander Atanassov
-Margo Sikes
-Jabari Weathers
-Eric Zhu
+Alexander Atanassov  
+Margo Sikes  
+Jabari Weathers  
+Eric Zhu  
 
-
----
----
+===
 
 Change log:
 
