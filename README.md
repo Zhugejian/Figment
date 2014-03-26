@@ -3,11 +3,8 @@
 
 
 Alexander Atanassov
-
 Margo Sikes
-
 Jabari Weathers
-
 Eric Zhu
 
 
