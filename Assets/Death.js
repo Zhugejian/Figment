@@ -1,5 +1,6 @@
 ﻿var Health : int = 3;
 
+
 //var mHurt : Material;
 //var normal : Material;
 
