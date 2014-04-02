@@ -20,3 +20,13 @@ Change log:
 - added "health" counter to enemies (each enemy takes three clicks to kill)
 - enemies blink red when hit
 - palm trees and more!
+
+
+4/2/14
+- added instructions
+- very basic enemy AI
+  - follows player
+- very basic destroy enemy mechanic
+  - reduce health on click
+  - when health reaches zero, disappears
+- sprite sheets for an enemy and chest done, yet to be implemented though
