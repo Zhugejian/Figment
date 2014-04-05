@@ -14,7 +14,7 @@ public class Destroy : MonoBehaviour {
                 if(hit.collider.gameObject.name == "Enemy") {
                     Health--;
                     if (Health == 0) {
-                        Destroy(this.gameObject);
+						Destroy(this);//.gameObject);
                     }
                 }
             }
