@@ -1,0 +1,1341 @@
+fileFormatVersion: 2
+guid: 4ed401e898fd5144d90e530d0cd651fb
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: 0
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: sifterfullsprite_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7378
+        width: 246
+        height: 814
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_1
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 7366
+        width: 254
+        height: 826
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_2
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 7364
+        width: 254
+        height: 828
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_3
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 7380
+        width: 250
+        height: 812
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_4
+      rect:
+        serializedVersion: 2
+        x: 1748
+        y: 7377
+        width: 246
+        height: 815
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_5
+      rect:
+        serializedVersion: 2
+        x: 2238
+        y: 7372
+        width: 246
+        height: 820
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_6
+      rect:
+        serializedVersion: 2
+        x: 2990
+        y: 7376
+        width: 250
+        height: 816
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_7
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 7378
+        width: 250
+        height: 814
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_8
+      rect:
+        serializedVersion: 2
+        x: 3488
+        y: 7378
+        width: 248
+        height: 814
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_9
+      rect:
+        serializedVersion: 2
+        x: 3980
+        y: 7372
+        width: 246
+        height: 820
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_10
+      rect:
+        serializedVersion: 2
+        x: 4732
+        y: 7376
+        width: 250
+        height: 816
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_11
+      rect:
+        serializedVersion: 2
+        x: 5226
+        y: 7378
+        width: 254
+        height: 814
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_12
+      rect:
+        serializedVersion: 2
+        x: 5480
+        y: 7372
+        width: 252
+        height: 820
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_13
+      rect:
+        serializedVersion: 2
+        x: 5985
+        y: 7380
+        width: 248
+        height: 812
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_14
+      rect:
+        serializedVersion: 2
+        x: 6233
+        y: 7378
+        width: 246
+        height: 814
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_15
+      rect:
+        serializedVersion: 2
+        x: 6726
+        y: 7366
+        width: 254
+        height: 826
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_16
+      rect:
+        serializedVersion: 2
+        x: 7234
+        y: 7374
+        width: 254
+        height: 818
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_17
+      rect:
+        serializedVersion: 2
+        x: 7488
+        y: 7380
+        width: 250
+        height: 812
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6548
+        width: 246
+        height: 816
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_19
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 6544
+        width: 246
+        height: 820
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_20
+      rect:
+        serializedVersion: 2
+        x: 1243
+        y: 6548
+        width: 249
+        height: 816
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_21
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 6550
+        width: 248
+        height: 814
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_22
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 6550
+        width: 248
+        height: 814
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_23
+      rect:
+        serializedVersion: 2
+        x: 2232
+        y: 6544
+        width: 246
+        height: 820
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_24
+      rect:
+        serializedVersion: 2
+        x: 2986
+        y: 6548
+        width: 248
+        height: 816
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_25
+      rect:
+        serializedVersion: 2
+        x: 3478
+        y: 6550
+        width: 254
+        height: 814
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_26
+      rect:
+        serializedVersion: 2
+        x: 3732
+        y: 6544
+        width: 252
+        height: 820
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_27
+      rect:
+        serializedVersion: 2
+        x: 4236
+        y: 6552
+        width: 250
+        height: 812
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_28
+      rect:
+        serializedVersion: 2
+        x: 4486
+        y: 6562
+        width: 224
+        height: 802
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_29
+      rect:
+        serializedVersion: 2
+        x: 4710
+        y: 6552
+        width: 224
+        height: 812
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_30
+      rect:
+        serializedVersion: 2
+        x: 5380
+        y: 6560
+        width: 224
+        height: 804
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_31
+      rect:
+        serializedVersion: 2
+        x: 5604
+        y: 6566
+        width: 220
+        height: 798
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_32
+      rect:
+        serializedVersion: 2
+        x: 5824
+        y: 6566
+        width: 222
+        height: 798
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_33
+      rect:
+        serializedVersion: 2
+        x: 6942
+        y: 6566
+        width: 220
+        height: 798
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_34
+      rect:
+        serializedVersion: 2
+        x: 7162
+        y: 6562
+        width: 226
+        height: 802
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_35
+      rect:
+        serializedVersion: 2
+        x: 7834
+        y: 6560
+        width: 224
+        height: 804
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5738
+        width: 222
+        height: 798
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_37
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 5732
+        width: 224
+        height: 804
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_38
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 5738
+        width: 228
+        height: 798
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_39
+      rect:
+        serializedVersion: 2
+        x: 1794
+        y: 5732
+        width: 222
+        height: 804
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_40
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 5726
+        width: 226
+        height: 810
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_41
+      rect:
+        serializedVersion: 2
+        x: 3134
+        y: 5738
+        width: 222
+        height: 798
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_42
+      rect:
+        serializedVersion: 2
+        x: 3356
+        y: 5738
+        width: 224
+        height: 798
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_43
+      rect:
+        serializedVersion: 2
+        x: 3952
+        y: 5728
+        width: 352
+        height: 808
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_44
+      rect:
+        serializedVersion: 2
+        x: 5068
+        y: 5880
+        width: 412
+        height: 656
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_45
+      rect:
+        serializedVersion: 2
+        x: 5480
+        y: 5890
+        width: 412
+        height: 646
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_46
+      rect:
+        serializedVersion: 2
+        x: 5892
+        y: 5836
+        width: 302
+        height: 700
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_47
+      rect:
+        serializedVersion: 2
+        x: 6194
+        y: 5838
+        width: 302
+        height: 698
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: sifterfullsprite_48
+      rect:
+        serializedVersion: 2
+        x: 6496
+        y: 5838
+        width: 302
+        height: 698
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: sifterfullsprite_49
+      rect:
+        serializedVersion: 2
+        x: 6798
+        y: 5750
+        width: 302
+        height: 786
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_50
+      rect:
+        serializedVersion: 2
+        x: 7100
+        y: 5750
+        width: 302
+        height: 786
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_51
+      rect:
+        serializedVersion: 2
+        x: 7402
+        y: 5750
+        width: 302
+        height: 786
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4894
+        width: 508
+        height: 814
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_53
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 5023
+        width: 346
+        height: 691
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_54
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 5034
+        width: 346
+        height: 680
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_55
+      rect:
+        serializedVersion: 2
+        x: 2110
+        y: 5038
+        width: 348
+        height: 676
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_56
+      rect:
+        serializedVersion: 2
+        x: 2806
+        y: 5110
+        width: 340
+        height: 604
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_57
+      rect:
+        serializedVersion: 2
+        x: 3146
+        y: 4826
+        width: 422
+        height: 888
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_59
+      rect:
+        serializedVersion: 2
+        x: 3568
+        y: 4894
+        width: 338
+        height: 820
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_60
+      rect:
+        serializedVersion: 2
+        x: 3906
+        y: 4884
+        width: 150
+        height: 830
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_61
+      rect:
+        serializedVersion: 2
+        x: 4056
+        y: 4886
+        width: 220
+        height: 828
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_62
+      rect:
+        serializedVersion: 2
+        x: 4538
+        y: 4872
+        width: 244
+        height: 842
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_63
+      rect:
+        serializedVersion: 2
+        x: 5146
+        y: 5088
+        width: 396
+        height: 626
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_64
+      rect:
+        serializedVersion: 2
+        x: 5550
+        y: 5182
+        width: 386
+        height: 532
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_65
+      rect:
+        serializedVersion: 2
+        x: 5936
+        y: 5184
+        width: 382
+        height: 532
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_66
+      rect:
+        serializedVersion: 2
+        x: 6315
+        y: 5182
+        width: 385
+        height: 530
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_68
+      rect:
+        serializedVersion: 2
+        x: 7082
+        y: 5194
+        width: 390
+        height: 520
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4077
+        width: 682
+        height: 747
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_70
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 4030
+        width: 280
+        height: 796
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_71
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 4032
+        width: 316
+        height: 794
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_72
+      rect:
+        serializedVersion: 2
+        x: 3298
+        y: 4014
+        width: 390
+        height: 812
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_73
+      rect:
+        serializedVersion: 2
+        x: 3688
+        y: 4006
+        width: 398
+        height: 820
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: sifterfullsprite_74
+      rect:
+        serializedVersion: 2
+        x: 4086
+        y: 4006
+        width: 410
+        height: 820
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: sifterfullsprite_75
+      rect:
+        serializedVersion: 2
+        x: 4496
+        y: 4006
+        width: 410
+        height: 820
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: sifterfullsprite_76
+      rect:
+        serializedVersion: 2
+        x: 4906
+        y: 3982
+        width: 388
+        height: 844
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: sifterfullsprite_77
+      rect:
+        serializedVersion: 2
+        x: 5294
+        y: 3982
+        width: 388
+        height: 844
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: sifterfullsprite_100
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 7368
+        width: 246
+        height: 824
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_101
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 7374
+        width: 254
+        height: 818
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_102
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 7378
+        width: 244
+        height: 814
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_103
+      rect:
+        serializedVersion: 2
+        x: 1994
+        y: 7372
+        width: 244
+        height: 820
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_104
+      rect:
+        serializedVersion: 2
+        x: 2484
+        y: 7366
+        width: 254
+        height: 826
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_105
+      rect:
+        serializedVersion: 2
+        x: 2738
+        y: 7366
+        width: 252
+        height: 826
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_106
+      rect:
+        serializedVersion: 2
+        x: 3736
+        y: 7372
+        width: 244
+        height: 820
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_107
+      rect:
+        serializedVersion: 2
+        x: 4226
+        y: 7364
+        width: 254
+        height: 828
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_108
+      rect:
+        serializedVersion: 2
+        x: 4477
+        y: 7366
+        width: 252
+        height: 826
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_109
+      rect:
+        serializedVersion: 2
+        x: 4982
+        y: 7376
+        width: 244
+        height: 816
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_110
+      rect:
+        serializedVersion: 2
+        x: 5732
+        y: 7364
+        width: 253
+        height: 828
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_111
+      rect:
+        serializedVersion: 2
+        x: 6479
+        y: 7368
+        width: 247
+        height: 824
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_112
+      rect:
+        serializedVersion: 2
+        x: 6980
+        y: 7364
+        width: 254
+        height: 828
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_113
+      rect:
+        serializedVersion: 2
+        x: 7738
+        y: 7378
+        width: 244
+        height: 814
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: sifterfullsprite_114
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 6544
+        width: 244
+        height: 820
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifterfullsprite_115
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 6538
+        width: 254
+        height: 826
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifterfullsprite_116
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 6538
+        width: 253
+        height: 826
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifterfullsprite_117
+      rect:
+        serializedVersion: 2
+        x: 1988
+        y: 6544
+        width: 244
+        height: 820
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifterfullsprite_118
+      rect:
+        serializedVersion: 2
+        x: 2478
+        y: 6536
+        width: 254
+        height: 828
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifterfullsprite_119
+      rect:
+        serializedVersion: 2
+        x: 2732
+        y: 6538
+        width: 254
+        height: 826
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifterfullsprite_120
+      rect:
+        serializedVersion: 2
+        x: 3234
+        y: 6546
+        width: 244
+        height: 820
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifterfullsprite_121
+      rect:
+        serializedVersion: 2
+        x: 3984
+        y: 6536
+        width: 252
+        height: 828
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifterfullsprite_122
+      rect:
+        serializedVersion: 2
+        x: 4934
+        y: 6554
+        width: 224
+        height: 810
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifterfullsprite_123
+      rect:
+        serializedVersion: 2
+        x: 5158
+        y: 6560
+        width: 222
+        height: 804
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifterfullsprite_124
+      rect:
+        serializedVersion: 2
+        x: 6046
+        y: 6562
+        width: 228
+        height: 802
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifterfullsprite_125
+      rect:
+        serializedVersion: 2
+        x: 6274
+        y: 6554
+        width: 224
+        height: 810
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifterfullsprite_126
+      rect:
+        serializedVersion: 2
+        x: 6498
+        y: 6560
+        width: 224
+        height: 804
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifterfullsprite_127
+      rect:
+        serializedVersion: 2
+        x: 6722
+        y: 6566
+        width: 220
+        height: 798
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifterfullsprite_128
+      rect:
+        serializedVersion: 2
+        x: 7388
+        y: 6552
+        width: 222
+        height: 812
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifterfullsprite_129
+      rect:
+        serializedVersion: 2
+        x: 7610
+        y: 6552
+        width: 224
+        height: 812
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifterfullsprite_130
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 5728
+        width: 223
+        height: 808
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifterfullsprite_131
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 5724
+        width: 225
+        height: 812
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifterfullsprite_132
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 5732
+        width: 224
+        height: 804
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifterfullsprite_133
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 5730
+        width: 224
+        height: 806
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifterfullsprite_134
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 5726
+        width: 224
+        height: 810
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifterfullsprite_135
+      rect:
+        serializedVersion: 2
+        x: 2242
+        y: 5724
+        width: 224
+        height: 812
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifterfullsprite_136
+      rect:
+        serializedVersion: 2
+        x: 2466
+        y: 5724
+        width: 222
+        height: 812
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifterfullsprite_137
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 5731
+        width: 224
+        height: 805
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifterfullsprite_138
+      rect:
+        serializedVersion: 2
+        x: 2912
+        y: 5732
+        width: 222
+        height: 804
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifterfullsprite_139
+      rect:
+        serializedVersion: 2
+        x: 3580
+        y: 5714
+        width: 372
+        height: 822
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifterfullsprite_140
+      rect:
+        serializedVersion: 2
+        x: 4304
+        y: 5722
+        width: 354
+        height: 814
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifterfullsprite_141
+      rect:
+        serializedVersion: 2
+        x: 4658
+        y: 5878
+        width: 410
+        height: 658
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifterfullsprite_142
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 5018
+        width: 537
+        height: 696
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifterfullsprite_143
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 5018
+        width: 347
+        height: 696
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifterfullsprite_144
+      rect:
+        serializedVersion: 2
+        x: 2458
+        y: 5028
+        width: 348
+        height: 687
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifterfullsprite_144
+      rect:
+        serializedVersion: 2
+        x: 4276
+        y: 4884
+        width: 262
+        height: 830
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifterfullsprite_145
+      rect:
+        serializedVersion: 2
+        x: 4782
+        y: 5046
+        width: 364
+        height: 668
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifterfullsprite_145
+      rect:
+        serializedVersion: 2
+        x: 6700
+        y: 5184
+        width: 382
+        height: 529
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifterfullsprite_146
+      rect:
+        serializedVersion: 2
+        x: 7472
+        y: 5238
+        width: 394
+        height: 476
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifterfullsprite_145
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 4060
+        width: 492
+        height: 766
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifterfullsprite_146
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 4018
+        width: 468
+        height: 808
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifterfullsprite_147
+      rect:
+        serializedVersion: 2
+        x: 2238
+        y: 4030
+        width: 290
+        height: 796
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifterfullsprite_148
+      rect:
+        serializedVersion: 2
+        x: 2528
+        y: 4016
+        width: 378
+        height: 810
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifterfullsprite_149
+      rect:
+        serializedVersion: 2
+        x: 2906
+        y: 4014
+        width: 392
+        height: 812
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifterfullsprite_131
+      rect:
+        serializedVersion: 2
+        x: 5682
+        y: 4020
+        width: 358
+        height: 806
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifterfullsprite_132
+      rect:
+        serializedVersion: 2
+        x: 6040
+        y: 4022
+        width: 357
+        height: 804
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifterfullsprite_133
+      rect:
+        serializedVersion: 2
+        x: 6397
+        y: 4006
+        width: 259
+        height: 820
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifterfullsprite_133
+      rect:
+        serializedVersion: 2
+        x: 6656
+        y: 4064
+        width: 248
+        height: 762
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifterfullsprite_134
+      rect:
+        serializedVersion: 2
+        x: 6904
+        y: 4079
+        width: 204
+        height: 747
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifterfullsprite_135
+      rect:
+        serializedVersion: 2
+        x: 7108
+        y: 4127
+        width: 194
+        height: 699
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifterfullsprite_136
+      rect:
+        serializedVersion: 2
+        x: 7302
+        y: 4144
+        width: 177
+        height: 682
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifterfullsprite_137
+      rect:
+        serializedVersion: 2
+        x: 7479
+        y: 4277
+        width: 171
+        height: 549
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifterfullsprite_138
+      rect:
+        serializedVersion: 2
+        x: 7650
+        y: 4320
+        width: 102
+        height: 506
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifterfullsprite_139
+      rect:
+        serializedVersion: 2
+        x: 7752
+        y: 4326
+        width: 64
+        height: 500
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifterfullsprite_140
+      rect:
+        serializedVersion: 2
+        x: 7816
+        y: 4333
+        width: 65
+        height: 493
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifterfullsprite_141
+      rect:
+        serializedVersion: 2
+        x: 7881
+        y: 4494
+        width: 50
+        height: 332
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifterfullsprite_142
+      rect:
+        serializedVersion: 2
+        x: 7931
+        y: 4494
+        width: 41
+        height: 332
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifterfullsprite_143
+      rect:
+        serializedVersion: 2
+        x: 7972
+        y: 4494
+        width: 37
+        height: 332
+      alignment: 0
+      pivot: {x: .5, y: .5}
+  spritePackingTag: 
+  userData: 

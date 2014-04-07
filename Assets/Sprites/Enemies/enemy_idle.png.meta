@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 6a077d2b45aad554f8331ab721791b4c
+guid: ed2084cb64dccfe46a375fd42df4bac1
 TextureImporter:
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -21,25 +21,61 @@ TextureImporter:
   generateCubemap: 0
   seamlessCubemap: 0
   textureFormat: -3
-  maxTextureSize: 1024
+  maxTextureSize: 4096
   textureSettings:
-    filterMode: 1
+    filterMode: -1
     aniso: 1
     mipBias: -1
     wrapMode: 1
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: .5, y: .5}
   spritePixelsToUnits: 100
-  alphaIsTransparency: 0
-  textureType: 0
+  alphaIsTransparency: 1
+  textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: enemy_idle_0
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 731
+        width: 279
+        height: 293
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: enemy_idle_1
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 731
+        width: 262
+        height: 293
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: enemy_idle_2
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 725
+        width: 258
+        height: 299
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: enemy_idle_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 429
+        width: 258
+        height: 296
+      alignment: 0
+      pivot: {x: .5, y: .5}
   spritePackingTag: 
   userData: 
