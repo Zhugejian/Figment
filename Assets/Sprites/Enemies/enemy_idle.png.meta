@@ -23,7 +23,7 @@ TextureImporter:
   textureFormat: -3
   maxTextureSize: 4096
   textureSettings:
-    filterMode: -1
+    filterMode: 0
     aniso: 1
     mipBias: -1
     wrapMode: 1
@@ -48,8 +48,8 @@ TextureImporter:
         y: 731
         width: 279
         height: 293
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 7
+      pivot: {x: .5, y: 0}
     - name: enemy_idle_1
       rect:
         serializedVersion: 2
@@ -57,8 +57,8 @@ TextureImporter:
         y: 731
         width: 262
         height: 293
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 7
+      pivot: {x: .5, y: 0}
     - name: enemy_idle_2
       rect:
         serializedVersion: 2
@@ -66,8 +66,8 @@ TextureImporter:
         y: 725
         width: 258
         height: 299
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 7
+      pivot: {x: .5, y: 0}
     - name: enemy_idle_3
       rect:
         serializedVersion: 2
@@ -75,7 +75,7 @@ TextureImporter:
         y: 429
         width: 258
         height: 296
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 7
+      pivot: {x: .5, y: 0}
   spritePackingTag: 
   userData: 

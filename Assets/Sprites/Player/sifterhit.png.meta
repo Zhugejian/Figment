@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f1c2c511f99a2614c9e91a6376faf03d
+guid: 527b3289fcd6f9e4fada938d2e7a45bd
 TextureImporter:
   serializedVersion: 2
   mipmaps:
@@ -41,94 +41,76 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: chest_0
+    - name: sifterhit_0
       rect:
         serializedVersion: 2
-        x: 151
-        y: 1789
-        width: 148
-        height: 146
+        x: 0
+        y: 1238
+        width: 378
+        height: 810
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: chest_1
+    - name: sifterhit_1
       rect:
         serializedVersion: 2
-        x: 599
-        y: 1775
-        width: 148
-        height: 148
+        x: 378
+        y: 1236
+        width: 392
+        height: 812
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: chest_2
+    - name: sifterhit_2
       rect:
         serializedVersion: 2
-        x: 151
-        y: 1467
-        width: 144
-        height: 140
+        x: 770
+        y: 1237
+        width: 391
+        height: 811
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: chest_3
+    - name: sifterhit_3
       rect:
         serializedVersion: 2
-        x: 595
-        y: 1471
-        width: 148
-        height: 154
+        x: 1161
+        y: 1228
+        width: 398
+        height: 820
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: chest_4
+    - name: sifterhit_4
       rect:
         serializedVersion: 2
-        x: 147
-        y: 1201
-        width: 148
-        height: 154
+        x: 1559
+        y: 1228
+        width: 409
+        height: 820
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: chest_5
+    - name: sifterhit_5
       rect:
         serializedVersion: 2
-        x: 583
-        y: 1201
-        width: 170
-        height: 184
+        x: 0
+        y: 408
+        width: 409
+        height: 820
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: chest_6
+    - name: sifterhit_6
       rect:
         serializedVersion: 2
-        x: 117
-        y: 897
-        width: 214
-        height: 200
+        x: 409
+        y: 385
+        width: 387
+        height: 842
       alignment: 0
       pivot: {x: 0, y: 0}
-    - name: chest_7
+    - name: sifterhit_7
       rect:
         serializedVersion: 2
-        x: 551
-        y: 877
-        width: 260
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-    - name: chest_8
-      rect:
-        serializedVersion: 2
-        x: 61
-        y: 551
-        width: 326
-        height: 286
-      alignment: 0
-      pivot: {x: 0, y: 0}
-    - name: chest_9
-      rect:
-        serializedVersion: 2
-        x: 447
-        y: 531
-        width: 450
-        height: 318
+        x: 796
+        y: 385
+        width: 387
+        height: 842
       alignment: 0
       pivot: {x: 0, y: 0}
   spritePackingTag: 

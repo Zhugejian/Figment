@@ -1,0 +1,171 @@
+fileFormatVersion: 2
+guid: 59472d6f11b7d4c4295cd4e222244834
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: 0
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: sifterdeath_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1243
+        width: 359
+        height: 805
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifterdeath_1
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 1243
+        width: 357
+        height: 805
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifterdeath_2
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 1228
+        width: 260
+        height: 820
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifterdeath_3
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 1256
+        width: 238
+        height: 792
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifterdeath_4
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 1279
+        width: 216
+        height: 769
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifterdeath_5
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 1321
+        width: 192
+        height: 727
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifterdeath_6
+      rect:
+        serializedVersion: 2
+        x: 1622
+        y: 1334
+        width: 178
+        height: 714
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifterdeath_7
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1384
+        width: 132
+        height: 664
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifterdeath_8
+      rect:
+        serializedVersion: 2
+        x: 1932
+        y: 1399
+        width: 116
+        height: 649
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifterdeath_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 691
+        width: 79
+        height: 552
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifterdeath_10
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 715
+        width: 66
+        height: 528
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifterdeath_11
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 786
+        width: 61
+        height: 457
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifterdeath_12
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 805
+        width: 51
+        height: 438
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifterdeath_13
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 831
+        width: 36
+        height: 412
+      alignment: 0
+      pivot: {x: .5, y: .5}
+  spritePackingTag: 
+  userData: 
