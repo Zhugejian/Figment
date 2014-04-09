@@ -5,6 +5,8 @@ public class Damageable : MonoBehaviour {
 
 	public bool isDamageable = true;
 	public int Health = 10;
+	public bool isPlayer = true;
+	public static bool chestOpened = false;
 
 	public void TakeDamage(int amount)
 	{
@@ -26,7 +28,30 @@ public class Damageable : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if(Health == 0)
+		if (Application.loadedLevelName.Equals ("Room2"))
+		{
+			if(Input.GetKeyDown(KeyCode.F))
+			{
+				chestOpened = true;
+			}
+		}
+		if (isPlayer)
+		{
+			if(Health == 0)
+			{
+				if(chestOpened)
+				{
+					Application.LoadLevel("Room2");
+					chestOpened = false;
+				}
+				else
+				{
+					Application.LoadLevel ("Game Over");
+				}
+			}
+		}
+
+		else if(Health == 0)
 		{
 			Destroy(this.gameObject);
 		}
