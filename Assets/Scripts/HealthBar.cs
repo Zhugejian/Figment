@@ -15,7 +15,7 @@ public class HealthBar : MonoBehaviour {
 //		{
 //			something = damage.getHealth();
 //		}
-		renderer.transform.localScale = new Vector3 (something/100, transform.localScale.y, transform.localScale.z);
+		renderer.transform.localScale = new Vector3 (something/200, transform.localScale.y, transform.localScale.z);
 		Debug.Log (something);
 //		if (something > 0)
 //		{
