@@ -44,22 +44,23 @@ public class AvatarCtrl : MonoBehaviour
 			//back animation trigger
 			if(Input.GetKeyDown(KeyCode.W))
 			{
-				animator.SetBool("FacingBack", true);
+				animator.SetBool("RunningBack", true);
 			}
 			else
 			{
-				animator.SetBool("FacingBack", false);
+				animator.SetBool("RunningBack", false);
 			}
 
 			//front animation trigger
-			if(Input.GetKeyDown(KeyCode.S))
+			while(Input.GetKeyDown(KeyCode.S))
 			{
-				animator.SetBool("FacingFront", true);
+				animator.SetBool("RunningFront", true);
 			}
-			else
+			/*else
 			{
-				animator.SetBool("FacingFront", false);
-			}
+				animator.SetBool("RunningFront", false);
+			}*/
+
 			
 			//float h = Input.GetAxis("Horizontal");
 			//float v = Input.GetAxis("Vertical");
