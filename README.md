@@ -13,7 +13,9 @@ Run DemoVersion_4_9_14.exe to play!
 
 
 Move the player with "WASD"
+
 Melee attack with "E"
+
 Open chests with "F"
 
 ===
