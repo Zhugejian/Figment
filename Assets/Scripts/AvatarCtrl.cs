@@ -12,6 +12,12 @@ public class AvatarCtrl : MonoBehaviour
 	void Start () 
 	{
 		animator = GetComponent<Animator>();
+
+		animator.SetBool("RunningFront", false);
+		animator.SetBool("RunningBack", false);
+		animator.SetBool ("FacingFront", false);
+		animator.SetBool ("FacingBack", true);
+
 	}
 	
 	void Update () 
@@ -24,7 +30,7 @@ public class AvatarCtrl : MonoBehaviour
 			//attack animation trigger
 			if(Input.GetKeyDown(KeyCode.E))
 			{
-					animator.SetBool("Attack", true );
+				animator.SetBool("Attack", true );
 			}
 			else
 			{
@@ -45,21 +51,53 @@ public class AvatarCtrl : MonoBehaviour
 			if(Input.GetKeyDown(KeyCode.W))
 			{
 				animator.SetBool("RunningBack", true);
+				animator.SetBool("FacingBack", true);
+				animator.SetBool("FacingFront", false);
 			}
-			else
+
+			if(Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.D))
 			{
-				animator.SetBool("RunningBack", false);
+				if(animator.GetBool("FacingFront"))
+				{
+					animator.SetBool("RunningFront", true);
+				}
+				else
+				{
+					animator.SetBool("RunningBack", true);
+				}
+			}
+
+			if(Input.GetKeyUp(KeyCode.A) || Input.GetKeyUp(KeyCode.D))
+			{
+				if(animator.GetBool("FacingFront"))
+				{
+					animator.SetBool("RunningFront", false);
+				}
+				else
+				{
+					animator.SetBool("RunningBack", false);
+				}
+			}
+
+			//done running
+			if(Input.GetKeyUp(KeyCode.W))
+			{
+				animator.SetBool ("RunningBack", false);
 			}
 
 			//front animation trigger
-			while(Input.GetKeyDown(KeyCode.S))
+			if(Input.GetKeyDown(KeyCode.S))
 			{
 				animator.SetBool("RunningFront", true);
+				animator.SetBool("FacingFront", true);
+				animator.SetBool("FacingBack", false);
 			}
-			/*else
+
+			//done running
+			if(Input.GetKeyUp(KeyCode.S))
 			{
-				animator.SetBool("RunningFront", false);
-			}*/
+				animator.SetBool ("RunningFront", false);
+			}
 
 			
 			//float h = Input.GetAxis("Horizontal");
