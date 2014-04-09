@@ -1,0 +1,135 @@
+fileFormatVersion: 2
+guid: 2ddd5eb374312b1488de979e86da6e94
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: 0
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: droppeditem_0
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 1769
+        width: 186
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: droppeditem_1
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 1756
+        width: 186
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: droppeditem_2
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1447
+        width: 183
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: droppeditem_3
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1450
+        width: 186
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: droppeditem_4
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1180
+        width: 185
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: droppeditem_5
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 1181
+        width: 207
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: droppeditem_6
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 877
+        width: 249
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: droppeditem_7
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 860
+        width: 291
+        height: 292
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: droppeditem_8
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 534
+        width: 361
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: droppeditem_9
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 513
+        width: 481
+        height: 347
+      alignment: 0
+      pivot: {x: .5, y: .5}
+  spritePackingTag: 
+  userData: 
