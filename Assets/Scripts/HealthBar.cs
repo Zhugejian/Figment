@@ -9,17 +9,15 @@ public class HealthBar : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		Damageable damage = this.gameObject.GetComponent(typeof(Damageable)) as Damageable;
-		//float bar = this.gameObject.Health;
-//		if (damage != null)
-//		{
-//			something = damage.getHealth();
-//		}
+		Damageable damage = transform.parent.GetComponent (typeof(Damageable)) as Damageable;
+
+		something = damage.getHealth();
+		
 		renderer.transform.localScale = new Vector3 (something/200, transform.localScale.y, transform.localScale.z);
 		Debug.Log (something);
-//		if (something > 0)
-//		{
-//			something = something - 1f;
-//		}
+		if (something > 0)
+		{
+			something = something - 1f;
+		}
 	}
 }
