@@ -8,7 +8,7 @@ public class AvatarCtrl : MonoBehaviour
 	protected Animator animator;
 	
 	public float DirectionDampTime = .25f;
-	//bool defaultAnim = true;
+	bool isDefault = true;
 	
 	void Start () 
 	{
@@ -82,10 +82,30 @@ public class AvatarCtrl : MonoBehaviour
 //				}
 				if(animator.GetBool("FacingFront"))
 				{
+					if(Input.GetKeyDown(KeyCode.A) && !(isDefault))
+					{
+						transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
+						isDefault = true;
+					}
+					else if(Input.GetKeyDown(KeyCode.D) && (isDefault))
+					{
+						transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
+						isDefault = false;
+					}
 					animator.SetBool("RunningFront", true);
 				}
 				else
 				{
+					if(Input.GetKeyDown(KeyCode.A) && (isDefault))
+					{
+						transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
+						isDefault = false;
+					}
+					else if(Input.GetKeyDown(KeyCode.D) && !(isDefault))
+					{
+						transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
+						isDefault = true;
+					}
 					animator.SetBool("RunningBack", true);
 				}
 			}
