@@ -1,0 +1,315 @@
+fileFormatVersion: 2
+guid: 2a2ef5dc02847f64ebce15ab5a60b0f1
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: 0
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: sifter-orb_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 458
+        width: 43
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: sifter-orb_1
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 448
+        width: 47
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: sifter-orb_2
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 424
+        width: 44
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifter-orb_3
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 404
+        width: 39
+        height: 76
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifter-orb_4
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 403
+        width: 42
+        height: 71
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifter-orb_5
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 400
+        width: 42
+        height: 74
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifter-orb_6
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 400
+        width: 42
+        height: 63
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifter-orb_7
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 405
+        width: 39
+        height: 99
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifter-orb_8
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 404
+        width: 39
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifter-orb_9
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 401
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: sifter-orb_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 278
+        width: 44
+        height: 78
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifter-orb_11
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 282
+        width: 48
+        height: 96
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifter-orb_12
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 288
+        width: 43
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: sifter-orb_13
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 288
+        width: 43
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: sifter-orb_14
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 294
+        width: 43
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: sifter-orb_15
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 341
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: sifter-orb_16
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 331
+        width: 47
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: sifter-orb_17
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 307
+        width: 44
+        height: 81
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifter-orb_18
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 288
+        width: 39
+        height: 95
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifter-orb_19
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 287
+        width: 39
+        height: 85
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifter-orb_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 169
+        width: 42
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifter-orb_21
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 166
+        width: 42
+        height: 90
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: sifter-orb_22
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 166
+        width: 42
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: sifter-orb_23
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 170
+        width: 39
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: sifter-orb_24
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 166
+        width: 39
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: sifter-orb_25
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 171
+        width: 44
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: sifter-orb_26
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 171
+        width: 47
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: sifter-orb_27
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 176
+        width: 43
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: sifter-orb_28
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 185
+        width: 43
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: sifter-orb_29
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 193
+        width: 43
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+  spritePackingTag: 
+  userData: 
