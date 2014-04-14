@@ -9,7 +9,7 @@ Eric Zhu
 
 ===
 
-Run DemoVersion_4_9_14.exe to play!
+Run DemoVersion_4_14_14.exe to play!
 
 
 Move the player with "WASD"
@@ -18,9 +18,32 @@ Melee attack with "E"
 
 Open chests with "F"
 
+
+An opened chest is a respawn point in the event of player death
+
+There is no victory in this game
+
+You may try to kill enemies, but they will always return
+
+Death is your only escape
+
 ===
 
 Change log:
+
+
+4/14/14
+- most environmental art (walls, doors, trees) now implemented as sprites
+- room point lights have been removed
+  - instead the room's ground is self-illuminating
+- player animation mirrors appropriately when pressing the movement keys separately
+  - fixed idle and attack animations to come
+- player is followed by an animated orb
+- player health is indicated by a green bar above the character
+  - the bar shrinks in width when health lowers
+  - when player health = 0, the bar will no longer be visible
+- can quit the game through Game Over menu
+
 
 4/9/14
 - art and animations:
