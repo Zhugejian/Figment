@@ -11,21 +11,15 @@ Eric Zhu
 
 Run DemoVersion_4_14_14.exe to play!
 
+Instructions:
+- Move the player with "WASD"
+- Melee attack with "E"
+- Open chests with "F"
 
-Move the player with "WASD"
-
-Melee attack with "E"
-
-Open chests with "F"
-
-
-An opened chest is a respawn point in the event of player death
-
-There is no victory in this game
-
-You may try to kill enemies, but they will always return
-
-Death is your only escape
+- An opened chest is a respawn point in the event of player death
+- There is no victory in this game
+- You may try to kill enemies, but they will always return
+- Death is your only escape
 
 ===
 
