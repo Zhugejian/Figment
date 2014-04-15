@@ -9,7 +9,8 @@ Eric Zhu
 
 ===
 
-Run DemoVersion_4_14_14.exe to play!
+For Windows, run DemoVersion_4_14_14.exe to play!
+For Macs, run DemoVersion_4_14_14.app to play!
 
 Instructions:
 - Move the player with "WASD"
