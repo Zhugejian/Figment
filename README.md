@@ -20,9 +20,8 @@ Instructions:
 - Melee attack with "E"
 - Drop respawn point with "F"
 - If the player has a respawn point, they will return there upon dying
-- There is no victory in this game
-- You may try to kill enemies, but they will always return
-- Death is your only escape
+- To win, find and open(attack) the repressed memory, which looks like a stationary respawn point
+
 
 ===
 
@@ -37,6 +36,8 @@ Change log:
   - press "F" to drop the respawn point at the player's location
   - unrestricted usage for now
 - changed format of all sprites from Truecolor to either 16 bits or Compressed to stay under Git's 100MB file limit
+- added repressed memory/victory condition
+- added victory screen
 
 
 4/14/14

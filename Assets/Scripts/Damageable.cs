@@ -6,6 +6,7 @@ public class Damageable : MonoBehaviour {
 	public bool isDamageable = true;
 	public int Health = 10;
 	public bool isPlayer = true;
+	public bool isRMemory = false;
 	public static bool chestOpened = false;
 	public static int CurrentLevel;
 
@@ -52,34 +53,30 @@ public class Damageable : MonoBehaviour {
 			chestOpened = true;
 		}
 
-		if (isPlayer)
+		if (isPlayer) {
+						if (Health <= 0) {
+								if (chestOpened) {
+										if (CurrentLevel == 2) {
+												Application.LoadLevel ("Room2");
+										} else if (CurrentLevel == 3) {
+												Application.LoadLevel ("Room3");
+										} else if (CurrentLevel == 4) {
+												Application.LoadLevel ("Room4");
+										} else {
+												Application.LoadLevel ("Start Room Left Door");
+										}
+										chestOpened = false;
+								} else {
+										Application.LoadLevel ("Game Over");
+								}
+						}
+		}
+
+		else if (isRMemory)
 		{
-			if(Health <= 0)
+			if (Health <= 0)
 			{
-				if(chestOpened)
-				{
-					if(CurrentLevel == 2)
-					{
-						Application.LoadLevel ("Room2");
-					}
-					else if(CurrentLevel == 3)
-					{
-						Application.LoadLevel ("Room3");
-					}
-					else if(CurrentLevel == 4)
-					{
-						Application.LoadLevel ("Room4");
-					}
-					else
-					{
-						Application.LoadLevel ("Start Room Left Door");
-					}
-					chestOpened = false;
-				}
-				else
-				{
-					Application.LoadLevel ("Game Over");
-				}
+				Application.LoadLevel ("Victory");
 			}
 		}
 
