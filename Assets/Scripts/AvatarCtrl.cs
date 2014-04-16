@@ -9,6 +9,8 @@ public class AvatarCtrl : MonoBehaviour
 	
 	public float DirectionDampTime = .25f;
 	bool isDefault = true;
+
+	public int Delay = 0;
 	
 	void Start () 
 	{
@@ -18,11 +20,29 @@ public class AvatarCtrl : MonoBehaviour
 		animator.SetBool("RunningBack", false);
 		animator.SetBool ("FacingFront", false);
 		animator.SetBool ("FacingBack", true);
+		animator.SetBool ("GotHit", false);
+		//animator.SetTrigger ("Hitted");
 
+	}
+
+	void EnableAnimatorFlag(string flag)
+	{
+		Debug.Log ("getting hit");
+		if (animator != null)
+		{
+			//animator.SetTrigger (flag);
+			animator.SetBool (flag, true);
+		}
+		if (Delay >= 20)
+		{
+			animator.SetBool (flag, false);
+			Delay = 0;
+		}
 	}
 	
 	void Update () 
 	{
+		Delay++;
 		if(animator)
 		{
 			//get the current state
@@ -54,6 +74,10 @@ public class AvatarCtrl : MonoBehaviour
 				animator.SetBool("RunningBack", true);
 				animator.SetBool("FacingBack", true);
 				animator.SetBool("FacingFront", false);
+				if(Input.GetKeyDown(KeyCode.E))
+				{
+					animator.SetTrigger("AttackMove");
+				}
 			}
 
 			if(Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.D))
@@ -131,9 +155,27 @@ public class AvatarCtrl : MonoBehaviour
 			//front animation trigger
 			if(Input.GetKeyDown(KeyCode.S))
 			{
-				animator.SetBool("RunningFront", true);
-				animator.SetBool("FacingFront", true);
-				animator.SetBool("FacingBack", false);
+				if(Input.GetKeyDown(KeyCode.E))
+				{
+					Debug.Log ("attack move down");
+					animator.SetTrigger("AttackMove");
+				}
+				else
+				{
+				    animator.SetBool("RunningFront", true);
+				    animator.SetBool("FacingFront", true);
+				    animator.SetBool("FacingBack", false);
+				}
+
+			}
+
+			if(!(Input.GetKeyUp(KeyCode.S)))
+			{
+				if(Input.GetKeyDown(KeyCode.E))
+				{
+					Debug.Log ("attack move down");
+					animator.SetTrigger("AttackMove");
+				}
 			}
 
 			//done running
