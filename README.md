@@ -9,14 +9,17 @@ Eric Zhu
 
 ===
 
-For Windows, run DemoVersion_4_14_14.exe to play!
-For Macs, run DemoVersion_4_14_14.app to play!
+
+For Windows, run DemoVersion_4_16_14.exe to play!
+
+For Macs, run DemoVersion_4_14_16(Mac).app to play!
+
 
 Instructions:
 - Move the player with "WASD"
 - Melee attack with "E"
-- Open chests with "F"
-- An opened chest is a respawn point in the event of player death
+- Drop respawn point with "F"
+- If the player has a respawn point, they will return there upon dying
 - There is no victory in this game
 - You may try to kill enemies, but they will always return
 - Death is your only escape
@@ -24,6 +27,16 @@ Instructions:
 ===
 
 Change log:
+
+
+4/16/14
+- added new scene: Room4
+- enemies can now only damage the player (friendly-fire removed)
+- added one track of background music
+- the respawn point can now be in any room
+  - press "F" to drop the respawn point at the player's location
+  - unrestricted usage for now
+- changed format of all sprites from Truecolor to either 16 bits or Compressed to stay under Git's 100MB file limit
 
 
 4/14/14

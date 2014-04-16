@@ -7,6 +7,7 @@ public class Damageable : MonoBehaviour {
 	public int Health = 10;
 	public bool isPlayer = true;
 	public static bool chestOpened = false;
+	public static int CurrentLevel;
 
 	public void TakeDamage(int amount)
 	{
@@ -28,20 +29,51 @@ public class Damageable : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (Application.loadedLevelName.Equals ("Room2"))
+		if(Input.GetKeyDown(KeyCode.F))
 		{
-			if(Input.GetKeyDown(KeyCode.F))
+			if(Application.loadedLevelName == "Room2")
 			{
-				chestOpened = true;
+				CurrentLevel = 2;
 			}
+			else if ((Application.loadedLevelName == "Room3L") || (Application.loadedLevelName == "Room3R"))
+			{
+				CurrentLevel = 3;
+			}
+			else if (Application.loadedLevelName == "Room4")
+			{
+				CurrentLevel = 4;
+			}
+			else
+			{
+				CurrentLevel = 1;
+			}
+			//CurrentLevel = Application.loadedLevelName;
+			Debug.Log(CurrentLevel);
+			chestOpened = true;
 		}
+
 		if (isPlayer)
 		{
-			if(Health == 0)
+			if(Health <= 0)
 			{
 				if(chestOpened)
 				{
-					Application.LoadLevel("Room2");
+					if(CurrentLevel == 2)
+					{
+						Application.LoadLevel ("Room2");
+					}
+					else if(CurrentLevel == 3)
+					{
+						Application.LoadLevel ("Room3");
+					}
+					else if(CurrentLevel == 4)
+					{
+						Application.LoadLevel ("Room4");
+					}
+					else
+					{
+						Application.LoadLevel ("Start Room Left Door");
+					}
 					chestOpened = false;
 				}
 				else
@@ -51,7 +83,7 @@ public class Damageable : MonoBehaviour {
 			}
 		}
 
-		else if(Health == 0)
+		else if(Health <= 0)
 		{
 			Destroy(this.gameObject);
 		}

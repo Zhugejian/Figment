@@ -25,18 +25,25 @@ public class EnemyMelee : MonoBehaviour
 
 			//Debug.DrawRay(transform.position, transform.position + dir * MeleeRange);
 
+
 			RaycastHit[] hits = Physics.RaycastAll(transform.position, dir, MeleeRange);
 			foreach (RaycastHit hit in hits)
 			{
 				GameObject obj = hit.collider.gameObject;
+
 				Damageable damage = hit.collider.gameObject.GetComponent(typeof(Damageable)) as Damageable;
 				if (damage != null)
 				{
-					//yield return new WaitForSeconds(0.1f);
-					damage.TakeDamage(DamageAmount);
+					if(damage.isPlayer == true)
+					{
+					    //yield return new WaitForSeconds(0.1f);
+					    damage.TakeDamage(DamageAmount);
+					}
 					return;// true;
 				}
+			
 			}
 		}
 	}
+	
 }

@@ -31,6 +31,10 @@ public class Melee : MonoBehaviour
 				foreach (RaycastHit hit in hits)
 				{
 					GameObject obj = hit.collider.gameObject;
+
+
+					//if (obj.GetComponent(typeof(Player)) != null) continue;
+
 					Damageable damage = hit.collider.gameObject.GetComponent(typeof(Damageable)) as Damageable;
 					if (damage != null)
 					{
