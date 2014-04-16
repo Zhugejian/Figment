@@ -10,9 +10,9 @@ Eric Zhu
 ===
 
 
-For Windows, run DemoVersion_4_16_14.exe to play!
+For Windows, run Prototype_1.exe to play!
 
-For Macs, run DemoVersion_4_14_16(Mac).app to play!
+For Macs, run Prototype_1(Mac).app to play!
 
 
 Instructions:
