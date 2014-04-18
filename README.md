@@ -28,6 +28,19 @@ Instructions:
 Change log:
 
 
+4/18/14
+- art/environments:
+  - changed forest door sprite image
+  - adjusted sprite layering (so transparent forest walls will no longer be visible through any forest doors)
+- experimental combat mechanics and animations (all in Room2)
+  - attacks push the target, the force is variable
+  - sifter attack delay to coincide with animation (still needs polish)
+  - sifter can attack while moving without breaking the animation (still needs polish)
+  - sifter reaction animation to being hit
+  - sifter death animation upon being killed
+  - enemies attack animation only plays when they've successfully hit the player
+
+
 4/16/14
 - added new scene: Room4
 - enemies can now only damage the player (friendly-fire removed)

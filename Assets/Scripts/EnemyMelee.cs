@@ -25,13 +25,11 @@ public class EnemyMelee : MonoBehaviour
 			ImpactReceiver script = other.GetComponent< ImpactReceiver>();
 			// if it has such script, add the impact force:
 			if (script) script.AddImpact(dir.normalized * force);
-			Debug.Log ("getting hit now");
 //			for(int i = 0; i < other.gameObject.transform.childCount; i++)
 //			{
 //				GameObject child = other.gameObject.transform.GetChild(i).gameObject;
 //				child.SendMessage("EnableAnimatorFlag", "Hitted", SendMessageOptions.DontRequireReceiver);
 //			}
-			Debug.Log ("getting hit now again");
 		}
 	}
 
@@ -58,16 +56,17 @@ public class EnemyMelee : MonoBehaviour
 					if(damage.isPlayer == true)
 					{
 					    //yield return new WaitForSeconds(0.1f);
+						BroadcastMessage("EnableEnemyAttackAnimatorFlag", "Wrath_Attack", SendMessageOptions.DontRequireReceiver);
 						for(int j = 0; j < hit.collider.gameObject.transform.childCount; j++)
 						{
 							GameObject child = hit.collider.gameObject.transform.GetChild(j).gameObject;
-							child.SendMessage("EnableAnimatorFlag", "GotHit", SendMessageOptions.DontRequireReceiver);
+							child.SendMessage("EnableAnimatorFlag", "Hit", SendMessageOptions.DontRequireReceiver);
 						}
-						for(int k = 0; k < this.gameObject.transform.childCount; k++)
-						{
-							GameObject child = this.gameObject.transform.GetChild(k).gameObject;
-							child.SendMessage("EnableEnemyAttackAnimatorFlag", "Attack", SendMessageOptions.DontRequireReceiver);
-						}
+//						for(int k = 0; k < this.gameObject.transform.childCount; k++)
+//						{
+//							GameObject child = this.gameObject.transform.GetChild(k).gameObject;
+//							child.SendMessage("EnableEnemyAttackAnimatorFlag", "Wrath_Attack", SendMessageOptions.DontRequireReceiver);
+//						}
 					    damage.TakeDamage(DamageAmount);
 					}
 					return;// true;

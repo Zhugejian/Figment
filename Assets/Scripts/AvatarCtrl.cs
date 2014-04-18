@@ -20,14 +20,18 @@ public class AvatarCtrl : MonoBehaviour
 		animator.SetBool("RunningBack", false);
 		animator.SetBool ("FacingFront", false);
 		animator.SetBool ("FacingBack", true);
-		animator.SetBool ("GotHit", false);
-		//animator.SetTrigger ("Hitted");
 
 	}
 
 	void EnableAnimatorFlag(string flag)
 	{
-		Debug.Log ("getting hit");
+		animator.SetTrigger (flag);
+	}
+
+	void EnableDeathAnimatorFlag(string flag)
+	{
+		Debug.Log ("getting killed");
+		animator.SetTrigger (flag);
 		if (animator != null)
 		{
 			//animator.SetTrigger (flag);
@@ -51,22 +55,23 @@ public class AvatarCtrl : MonoBehaviour
 			//attack animation trigger
 			if(Input.GetKeyDown(KeyCode.E))
 			{
-				animator.SetBool("Attack", true );
+				animator.SetTrigger("AttackMove");
+				//animator.SetBool("Attack", true );
 			}
-			else
-			{
-				animator.SetBool("Attack", false);				
-			}
-
-			//attack back animation trigger
-			if(Input.GetKeyDown(KeyCode.E))
-			{
-				animator.SetBool("AttackBack", true );
-			}
-			else
-			{
-				animator.SetBool("AttackBack", false);				
-			}
+//			else
+//			{
+//				animator.SetBool("Attack", false);				
+//			}
+//
+//			//attack back animation trigger
+//			if(Input.GetKeyDown(KeyCode.E))
+//			{
+//				animator.SetBool("AttackBack", true );
+//			}
+//			else
+//			{
+//				animator.SetBool("AttackBack", false);				
+//			}
 
 			//back animation trigger
 			if(Input.GetKeyDown(KeyCode.W))
