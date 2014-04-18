@@ -45,6 +45,19 @@ public class Damageable : MonoBehaviour {
 		GameOver ();
 
 	}
+
+	void Victory()
+	{
+		Application.LoadLevel ("Victory");
+	}
+
+	IEnumerator WaitForIt2()
+	{
+		yield return new WaitForSeconds (0.7f);
+		
+		Victory ();
+		
+	}
 	
 	// Update is called once per frame
 	void Update () {
@@ -109,7 +122,9 @@ public class Damageable : MonoBehaviour {
 		{
 			if (Health <= 0)
 			{
-				Application.LoadLevel ("Victory");
+				BroadcastMessage("EnableOpenChestAnimatorFlag", "Opened", SendMessageOptions.DontRequireReceiver);
+				StartCoroutine(WaitForIt2());
+				//Application.LoadLevel ("Victory");
 			}
 		}
 

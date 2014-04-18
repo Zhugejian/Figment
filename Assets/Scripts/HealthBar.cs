@@ -18,5 +18,9 @@ public class HealthBar : MonoBehaviour {
 		{
 			something = something - 1f;
 		}
+		if (something <= 0)
+		{
+			Destroy (this.gameObject);
+		}
 	}
 }

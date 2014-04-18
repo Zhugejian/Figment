@@ -53,7 +53,7 @@ public class AvatarCtrl : MonoBehaviour
 			AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
 
 			//attack animation trigger
-			if(Input.GetKeyDown(KeyCode.E))
+			if(Input.GetKeyDown(KeyCode.H))
 			{
 				animator.SetTrigger("AttackMove");
 				//animator.SetBool("Attack", true );
@@ -64,7 +64,7 @@ public class AvatarCtrl : MonoBehaviour
 //			}
 //
 //			//attack back animation trigger
-//			if(Input.GetKeyDown(KeyCode.E))
+//			if(Input.GetKeyDown(KeyCode.H))
 //			{
 //				animator.SetBool("AttackBack", true );
 //			}
@@ -74,18 +74,18 @@ public class AvatarCtrl : MonoBehaviour
 //			}
 
 			//back animation trigger
-			if(Input.GetKeyDown(KeyCode.W))
+			if(Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
 			{
 				animator.SetBool("RunningBack", true);
 				animator.SetBool("FacingBack", true);
 				animator.SetBool("FacingFront", false);
-				if(Input.GetKeyDown(KeyCode.E))
+				if(Input.GetKeyDown(KeyCode.H))
 				{
 					animator.SetTrigger("AttackMove");
 				}
 			}
 
-			if(Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.D))
+			if(Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.RightArrow))
 			{
 //				if(Input.GetKeyDown(KeyCode.A))
 //				{
@@ -111,7 +111,7 @@ public class AvatarCtrl : MonoBehaviour
 //				}
 				if(animator.GetBool("FacingFront"))
 				{
-					if(Input.GetKeyDown(KeyCode.A) && !(isDefault))
+					if((Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow)) && !(isDefault))
 					{
 						transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
 						isDefault = true;
@@ -125,7 +125,7 @@ public class AvatarCtrl : MonoBehaviour
 				}
 				else
 				{
-					if(Input.GetKeyDown(KeyCode.A) && (isDefault))
+					if((Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow)) && (isDefault))
 					{
 						transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
 						isDefault = false;
@@ -139,7 +139,7 @@ public class AvatarCtrl : MonoBehaviour
 				}
 			}
 
-			if(Input.GetKeyUp(KeyCode.A) || Input.GetKeyUp(KeyCode.D))
+			if(Input.GetKeyUp(KeyCode.A) || Input.GetKeyUp(KeyCode.D) || Input.GetKeyUp(KeyCode.LeftArrow) || Input.GetKeyUp(KeyCode.RightArrow))
 			{
 				if(animator.GetBool("FacingFront"))
 				{
@@ -152,15 +152,15 @@ public class AvatarCtrl : MonoBehaviour
 			}
 
 			//done running
-			if(Input.GetKeyUp(KeyCode.W))
+			if(Input.GetKeyUp(KeyCode.W) || Input.GetKeyUp(KeyCode.UpArrow))
 			{
 				animator.SetBool ("RunningBack", false);
 			}
 
 			//front animation trigger
-			if(Input.GetKeyDown(KeyCode.S))
+			if(Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
 			{
-				if(Input.GetKeyDown(KeyCode.E))
+				if(Input.GetKeyDown(KeyCode.H))
 				{
 					Debug.Log ("attack move down");
 					animator.SetTrigger("AttackMove");
@@ -174,17 +174,26 @@ public class AvatarCtrl : MonoBehaviour
 
 			}
 
-			if(!(Input.GetKeyUp(KeyCode.S)))
+			if(!(Input.GetKeyUp(KeyCode.S) || Input.GetKeyUp(KeyCode.DownArrow)))
 			{
-				if(Input.GetKeyDown(KeyCode.E))
+				if(Input.GetKeyDown(KeyCode.H))
 				{
 					Debug.Log ("attack move down");
 					animator.SetTrigger("AttackMove");
 				}
 			}
 
+			if(!(Input.GetKeyUp(KeyCode.W) || Input.GetKeyUp(KeyCode.UpArrow)))
+			{
+				if(Input.GetKeyDown(KeyCode.H))
+				{
+					Debug.Log ("attack move up");
+					animator.SetTrigger("AttackMove");
+				}
+			}
+
 			//done running
-			if(Input.GetKeyUp(KeyCode.S))
+			if(Input.GetKeyUp(KeyCode.S) || Input.GetKeyUp(KeyCode.DownArrow))
 			{
 				animator.SetBool ("RunningFront", false);
 			}

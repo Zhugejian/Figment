@@ -4,7 +4,7 @@ using System.Collections;
 
 public class MemoryCtrl : MonoBehaviour 
 {
-	public static bool IsOpened = false;
+	//public static bool IsOpened = false;
 	protected Animator animator;
 	
 	public float DirectionDampTime = .25f;
@@ -13,8 +13,13 @@ public class MemoryCtrl : MonoBehaviour
 	{
 		animator = GetComponent<Animator>();
 		
-		animator.SetBool("IsOpened", false);
+		//animator.SetBool("IsOpened", false);
 		
+	}
+
+	public void EnableOpenChestAnimatorFlag(string flag)
+	{
+		animator.SetTrigger (flag);
 	}
 	
 	void Update () 
@@ -27,10 +32,10 @@ public class MemoryCtrl : MonoBehaviour
 			AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
 			
 			//attack animation trigger
-			if(Input.GetKeyDown(KeyCode.F))
-			{
-				animator.SetBool("IsOpened", true );
-			}
+//			if(Input.GetKeyDown(KeyCode.F))
+//			{
+//				animator.SetBool("IsOpened", true );
+//			}
 			
 			//float h = Input.GetAxis("Horizontal");
 			//float v = Input.GetAxis("Vertical");
