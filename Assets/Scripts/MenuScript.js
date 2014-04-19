@@ -1,11 +1,11 @@
 ﻿function OnMouseEnter()
 {
-	renderer.material.color = Color.green;
+	this.renderer.material.color = Color.green;
 }
 
 function OnMouseExit()
 {
-	renderer.material.color = Color.white;
+	this.renderer.material.color = Color.white;
 }
 
 // Warp to Start Room Left Door on Trigger
