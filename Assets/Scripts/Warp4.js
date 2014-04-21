@@ -1,4 +1,8 @@
 ﻿// Warp to Room4 on Trigger
+
 	function OnTriggerEnter (other : Collider) {
-		Application.LoadLevel ("Room4");
+	    if(other.tag == "Player")
+	    {
+		    Application.LoadLevel ("Room4");
+		}
 	}
