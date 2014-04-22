@@ -13,19 +13,30 @@ Eric Zhu
 For Windows, run Prototype_1.exe to play!
 
 For Macs, run Prototype_1(Mac).app to play!
-
+(outdated)
 
 Instructions:
-- Move the player with "WASD"
-- Melee attack with "E"
+- Move the player with "WASD" or the arrow keys
+- Melee attack with "H"
 - Drop respawn point with "F"
 - If the player has a respawn point, they will return there upon dying
-- To win, find and open(attack) the repressed memory, which looks like a stationary respawn point
+- To win, find and open(attack) the repressed memory, which looks like a chest
 
 
 ===
 
 Change log:
+
+
+4/22/14
+- sifters charge their attack
+  - hold onto the attack button to charge
+  - the longer you charge, the greater the force and damage dealt by the attack
+  - discourages mashing the attack button because of low base damage and force
+  - charging animation/animation controller needs tweaking still
+- sifter animations transition much smoother and more accurately
+  - lost the idle animation though
+- enemy animation changes upon being hit
 
 
 4/18/14
