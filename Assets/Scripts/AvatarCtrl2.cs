@@ -20,13 +20,13 @@ public class AvatarCtrl2 : MonoBehaviour
 
 	}
 	
-	void EnableAnimatorFlag(string flag)
+	void EnablePlayerHitAnimatorFlag(string flag)
 	{
 		// flag should be "Hit"?
 		animator.SetTrigger (flag);
 	}
 	
-	void EnableDeathAnimatorFlag(string flag)
+	void EnablePlayerDeathAnimatorFlag(string flag)
 	{
 		// flag should be "Killed"
 		animator.SetTrigger (flag);
@@ -47,6 +47,16 @@ public class AvatarCtrl2 : MonoBehaviour
 
 			if(Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
 			{
+				if(FacingLeft && isDefault)
+				{
+					transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
+					isDefault = false;
+				}
+				if(!(FacingLeft) && !(isDefault))
+				{
+					transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
+					isDefault = true;
+				}
 				animator.SetBool("MovingBack", true);
 				animator.SetBool("MovingFront", false);
 				NotStarted = false;
@@ -58,6 +68,16 @@ public class AvatarCtrl2 : MonoBehaviour
 //			}
 			if(Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
 			{
+				if(FacingLeft && !(isDefault))
+				{
+					transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
+					isDefault = true;
+				}
+				if(!(FacingLeft) && isDefault)
+				{
+					transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
+					isDefault = false;
+				}
 				animator.SetBool("MovingFront", true);
 				animator.SetBool("MovingBack", false);
 				NotStarted = false;

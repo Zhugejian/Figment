@@ -60,7 +60,7 @@ public class EnemyMelee : MonoBehaviour
 						for(int j = 0; j < hit.collider.gameObject.transform.childCount; j++)
 						{
 							GameObject child = hit.collider.gameObject.transform.GetChild(j).gameObject;
-							child.SendMessage("EnableAnimatorFlag", "Hit", SendMessageOptions.DontRequireReceiver);
+							child.SendMessage("EnablePlayerHitAnimatorFlag", "Hit", SendMessageOptions.DontRequireReceiver);
 						}
 //						for(int k = 0; k < this.gameObject.transform.childCount; k++)
 //						{

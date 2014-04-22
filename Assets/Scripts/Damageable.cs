@@ -111,7 +111,7 @@ public class Damageable : MonoBehaviour {
 				else
 				{
 					//GameObject plyr = GameObject.FindGameObjectWithTag("Player");
-					BroadcastMessage("EnableDeathAnimatorFlag", "Killed", SendMessageOptions.DontRequireReceiver);
+					BroadcastMessage("EnablePlayerDeathAnimatorFlag", "Killed", SendMessageOptions.DontRequireReceiver);
 					StartCoroutine(WaitForIt());
 					//Application.LoadLevel ("Game Over");
 				}
