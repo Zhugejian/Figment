@@ -15,6 +15,17 @@ public class Melee : MonoBehaviour
 		
 	}
 
+	void EnablePlayerMeleeFlag(bool flag)
+	{
+		Debug.Log ("player melee got message");
+		// flag should be "Hit"
+		if (flag)
+		{
+			StartCoroutine(WaitForIt());
+			flag = false;
+		}
+	}
+
 //	void OnTriggerEnter(Collider other){
 //		Vector3 dir = other.transform.position - transform.position;
 //		dir.y = 0; // keep the force horizontal
@@ -30,6 +41,7 @@ public class Melee : MonoBehaviour
 
 	void DelayedAttack()
 	{
+		Debug.Log ("player attacking");
 		BroadcastMessage("EnableEnemyHitAnimatorFlag", "Wrath_Hit", SendMessageOptions.DontRequireReceiver);
 		for (int i = 0; i<5; i++)
 		{
@@ -77,17 +89,17 @@ public class Melee : MonoBehaviour
 
 	IEnumerator WaitForIt()
 	{
-		yield return new WaitForSeconds (0.8f);	
+		yield return new WaitForSeconds (0.2f);	
 		DelayedAttack ();			
 	}
 
 	// Update is called once per frame
 	void Update()
 	{
-		if (Input.GetKeyDown(KeyCode.H))
-		{
-			StartCoroutine(WaitForIt());
-
-		}
+//		if (Input.GetKeyDown(KeyCode.H))
+//		{
+//			StartCoroutine(WaitForIt());
+//
+//		}
 	}
 }

@@ -22,7 +22,7 @@ public class AvatarCtrl2 : MonoBehaviour
 	
 	void EnablePlayerHitAnimatorFlag(string flag)
 	{
-		// flag should be "Hit"?
+		// flag should be "Hit"
 		animator.SetTrigger (flag);
 	}
 	
@@ -139,6 +139,8 @@ public class AvatarCtrl2 : MonoBehaviour
 			if(Input.GetKeyUp (KeyCode.H))
 			{
 				animator.SetTrigger("Releasing");
+				SendMessageUpwards("EnablePlayerMeleeFlag", true, SendMessageOptions.DontRequireReceiver);
+				Debug.Log("player melee sending message");
 			}
 
 
