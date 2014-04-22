@@ -62,13 +62,12 @@ public class Melee : MonoBehaviour
 				Damageable damage = hit.collider.gameObject.GetComponent(typeof(Damageable)) as Damageable;
 				if (damage != null)
 				{
-					Debug.Log("hitting wrath");
-					BroadcastMessage("EnableEnemyHitAnimatorFlag", "Wrath_Hit", SendMessageOptions.DontRequireReceiver);
-					//						for(int j = 0; j < hit.collider.gameObject.transform.childCount; j++)
-					//						{
-					//							GameObject child = hit.collider.gameObject.transform.GetChild(j).gameObject;
-					//							child.SendMessage("EnableEnemyHitAnimatorFlag", "Wrath_Hit", SendMessageOptions.DontRequireReceiver);
-					//						}
+					//BroadcastMessage("EnableEnemyHitAnimatorFlag", "Wrath_Hit", SendMessageOptions.DontRequireReceiver);
+					for(int j = 0; j < hit.collider.gameObject.transform.childCount; j++)
+					{
+						GameObject child = hit.collider.gameObject.transform.GetChild(j).gameObject;
+						child.SendMessage("EnableEnemyHitAnimatorFlag", "Wrath_Hit", SendMessageOptions.DontRequireReceiver);
+					}
 					damage.TakeDamage(DamageAmount);
 					Vector3 dir2 = hit.collider.transform.position - transform.position;
 					dir2.y = 0; // keep the force horizontal
