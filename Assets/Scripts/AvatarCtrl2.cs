@@ -114,18 +114,11 @@ public class AvatarCtrl2 : MonoBehaviour
 					isDefault = false;
 				}
 
-//				if(FacingLeft && !(FacingBack) && !(isDefault))
-//				{
-//					transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
-//					isDefault = true;
-//				}
-//				if(!(FacingLeft) && !(FacingBack) && isDefault)
-//				{
-//					transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
-//					isDefault = false;
-//				}
-				
-				animator.SetTrigger("Attacking");
+				animator.SetTrigger("Priming");
+			}
+			if(Input.GetKeyUp (KeyCode.H))
+			{
+				animator.SetTrigger("Releasing");
 			}
 
 
@@ -137,109 +130,6 @@ public class AvatarCtrl2 : MonoBehaviour
 //			}
 
 
-//
-//			
-//			//back animation trigger
-//			if(Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
-//			{
-//				animator.SetBool("RunningBack", true);
-//				animator.SetBool("FacingBack", true);
-//				animator.SetBool("FacingFront", false);
-//				if(Input.GetKeyDown(KeyCode.H))
-//				{
-//					animator.SetTrigger("AttackMove");
-//				}
-//			}
-//			
-//			if(Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.RightArrow))
-//			{
-//				if(animator.GetBool("FacingFront"))
-//				{
-//					if((Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow)) && !(isDefault))
-//					{
-//						transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
-//						isDefault = true;
-//					}
-//					else if(Input.GetKeyDown(KeyCode.D) && (isDefault))
-//					{
-//						transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
-//						isDefault = false;
-//					}
-//					animator.SetBool("RunningFront", true);
-//				}
-//				else
-//				{
-//					if((Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow)) && (isDefault))
-//					{
-//						transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
-//						isDefault = false;
-//					}
-//					else if(Input.GetKeyDown(KeyCode.D) && !(isDefault))
-//					{
-//						transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
-//						isDefault = true;
-//					}
-//					animator.SetBool("RunningBack", true);
-//				}
-//			}
-//			
-//			if(Input.GetKeyUp(KeyCode.A) || Input.GetKeyUp(KeyCode.D) || Input.GetKeyUp(KeyCode.LeftArrow) || Input.GetKeyUp(KeyCode.RightArrow))
-//			{
-//				if(animator.GetBool("FacingFront"))
-//				{
-//					animator.SetBool("RunningFront", false);
-//				}
-//				else
-//				{
-//					animator.SetBool("RunningBack", false);
-//				}
-//			}
-//			
-//			//done running
-//			if(Input.GetKeyUp(KeyCode.W) || Input.GetKeyUp(KeyCode.UpArrow))
-//			{
-//				animator.SetBool ("RunningBack", false);
-//			}
-//			
-//			//front animation trigger
-//			if(Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
-//			{
-//				if(Input.GetKeyDown(KeyCode.H))
-//				{
-//					animator.SetTrigger("AttackMove");
-//				}
-//				else
-//				{
-//					animator.SetBool("RunningFront", true);
-//					animator.SetBool("FacingFront", true);
-//					animator.SetBool("FacingBack", false);
-//				}
-//				
-//			}
-//			
-//			if(!(Input.GetKeyUp(KeyCode.S) || Input.GetKeyUp(KeyCode.DownArrow)))
-//			{
-//				if(Input.GetKeyDown(KeyCode.H))
-//				{
-//					Debug.Log ("attack move down");
-//					animator.SetTrigger("AttackMove");
-//				}
-//			}
-//			
-//			if(!(Input.GetKeyUp(KeyCode.W) || Input.GetKeyUp(KeyCode.UpArrow)))
-//			{
-//				if(Input.GetKeyDown(KeyCode.H))
-//				{
-//					Debug.Log ("attack move up");
-//					animator.SetTrigger("AttackMove");
-//				}
-//			}
-//			
-//			//done running
-//			if(Input.GetKeyUp(KeyCode.S) || Input.GetKeyUp(KeyCode.DownArrow))
-//			{
-//				animator.SetBool ("RunningFront", false);
-//			}
 		}		
 	}   		  
 }
