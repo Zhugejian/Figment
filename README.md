@@ -10,9 +10,9 @@ Eric Zhu
 ===
 
 
-For Windows, run Prototype_1.exe to play!
+For Windows, run Prototype_2.exe to play!
 
-For Macs, run Prototype_1(Mac).app to play!
+For Macs, run Prototype_2(Mac).app to play!
 (outdated)
 
 Instructions:
@@ -30,13 +30,15 @@ Change log:
 
 4/22/14
 - starting to put everything in prefabs
-  - I'm so stupid, this would've made things so much easier if I'd had these weeks ago
+  - I'm so stupid, this would've made things so much easier if I had these weeks ago
 - experimental combat fully implemented
 - sifters charge their attack
   - hold onto the attack button to charge
-  - the longer you charge, the greater the force and damage dealt by the attack
+  - the longer you charge, the greater the force and damage dealt by the attack (up to a cap)
   - discourages mashing the attack button because of low base damage and force
-  - charging animation/animation controller needs tweaking still
+  - move speed decreases while charging
+    - discourages holding down the attack button the whole game
+  - bug where sifter sometimes refuses to charge after getting hit while charging
 - sifter animations transition much smoother and more accurately
   - lost the idle animation though
 - enemy animation changes upon being hit

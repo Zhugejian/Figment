@@ -135,6 +135,7 @@ public class AvatarCtrl2 : MonoBehaviour
 					transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
 					isDefault = true;
 				}
+
 				if(!(FacingLeft) && isDefault)
 				{
 					transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
@@ -144,10 +145,53 @@ public class AvatarCtrl2 : MonoBehaviour
 				animator.SetTrigger("Priming");
 				isReadying = true;
 			}
+
+			if(isReadying)
+			{
+
+				if((Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow)) && FacingLeft && !(isDefault))
+				{
+					transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
+					isDefault = true;
+				}
+
+				if((Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow)) && !(FacingLeft) && isDefault)
+				{
+					transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
+					isDefault = false;
+				}
+
+				if((Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow)) && FacingLeft && !(isDefault))
+				{
+					transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
+					isDefault = true;
+				}
+
+				if((Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow)) && !(FacingLeft) && isDefault)
+				{
+					transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
+					isDefault = false;
+				}
+
+				if((Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow)) && !(isDefault))
+				{
+					transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
+					isDefault = true;
+				}
+
+				if((Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow)) && isDefault)
+				{
+					transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
+					isDefault = false;
+				}
+				SendMessageUpwards("MoveSpeedUpdate", 8, SendMessageOptions.DontRequireReceiver);
+			}
+
 			if(Input.GetKeyUp (KeyCode.H))
 			{
 				animator.SetTrigger("Releasing");
 				SendMessageUpwards("EnablePlayerMeleeFlag", ReadiedPower, SendMessageOptions.DontRequireReceiver);
+				SendMessageUpwards("MoveSpeedUpdate", 20, SendMessageOptions.DontRequireReceiver);
 				Debug.Log(ReadiedPower);
 				isReadying = false;
 				ReadiedPower = 0f;
