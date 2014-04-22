@@ -29,6 +29,9 @@ Change log:
 
 
 4/22/14
+- starting to put everything in prefabs
+  - I'm so stupid, this would've made things so much easier if I'd had these weeks ago
+- experimental combat fully implemented
 - sifters charge their attack
   - hold onto the attack button to charge
   - the longer you charge, the greater the force and damage dealt by the attack
