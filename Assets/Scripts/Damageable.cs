@@ -4,14 +4,14 @@ using System.Collections;
 public class Damageable : MonoBehaviour {
 
 	public bool isDamageable = true;
-	public int Health = 10;
+	public float Health = 10f;
 	public bool isPlayer = true;
 	//public bool isWrath = false;
 	public bool isRMemory = false;
 	public static bool chestOpened = false;
 	public static int CurrentLevel;
 
-	public void TakeDamage(int amount)
+	public void TakeDamage(float amount)
 	{
 		Health = Health - amount;
 		//renderer.material.color = Color.red;
@@ -19,7 +19,7 @@ public class Damageable : MonoBehaviour {
 		//yield WaitForSeconds(.1);
 		//renderer.material.color = Color.white;
 	}
-	public void DealDamage(int amount, Damageable d)
+	public void DealDamage(float amount, Damageable d)
 	{
 		d.Health = d.Health - amount;
 //		if(isWrath)
@@ -134,7 +134,7 @@ public class Damageable : MonoBehaviour {
 		}
 	}
 
-	public int getHealth()
+	public float getHealth()
 	{
 		return Health;
 	}

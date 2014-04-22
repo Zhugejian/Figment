@@ -9,6 +9,9 @@ public class AvatarCtrl2 : MonoBehaviour
 	bool FacingBack = true;
 	bool FacingLeft = true;
 	bool NotStarted = true;
+
+	bool isReadying = false;
+	float ReadiedPower = 0f;
 	
 	protected Animator animator;
 	
@@ -34,6 +37,10 @@ public class AvatarCtrl2 : MonoBehaviour
 	
 	void Update () 
 	{
+		if(isReadying && (ReadiedPower < 5f))
+		{
+			ReadiedPower = ReadiedPower + 0.025f;
+		}
 		if(animator)
 		{
 			//get the current state
@@ -135,12 +142,15 @@ public class AvatarCtrl2 : MonoBehaviour
 				}
 
 				animator.SetTrigger("Priming");
+				isReadying = true;
 			}
 			if(Input.GetKeyUp (KeyCode.H))
 			{
 				animator.SetTrigger("Releasing");
-				SendMessageUpwards("EnablePlayerMeleeFlag", true, SendMessageOptions.DontRequireReceiver);
-				Debug.Log("player melee sending message");
+				SendMessageUpwards("EnablePlayerMeleeFlag", ReadiedPower, SendMessageOptions.DontRequireReceiver);
+				Debug.Log(ReadiedPower);
+				isReadying = false;
+				ReadiedPower = 0f;
 			}
 
 

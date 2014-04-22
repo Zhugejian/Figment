@@ -5,7 +5,7 @@ public class EnemyMelee : MonoBehaviour
 {
 	public float MeleeRange = 2;
 	public float CollisionDiameter = 0.2f;
-	public int DamageAmount = 9999;
+	public float DamageAmount = 2.0f;
 	//public GameObject AttackPrefab;
 	public float force = 500; // adjust the impact force
 	

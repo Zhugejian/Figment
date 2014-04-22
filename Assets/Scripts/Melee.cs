@@ -5,7 +5,7 @@ public class Melee : MonoBehaviour
 {
 	public float MeleeRange = 2;
 	public float CollisionDiameter = 0.2f;
-	public int DamageAmount = 9999;
+	public float DamageAmount = 2.0f;
 	//public GameObject AttackPrefab;
 	public float force = 500; // adjust the impact force
 	
@@ -15,15 +15,11 @@ public class Melee : MonoBehaviour
 		
 	}
 
-	void EnablePlayerMeleeFlag(bool flag)
+	void EnablePlayerMeleeFlag(float flag)
 	{
-		Debug.Log ("player melee got message");
-		// flag should be "Hit"
-		if (flag)
-		{
-			StartCoroutine(WaitForIt());
-			flag = false;
-		}
+		DamageAmount = flag;
+		//CollisionDiameter = (flag) + 1;//CollisionDiameter;
+		StartCoroutine(WaitForIt());
 	}
 
 //	void OnTriggerEnter(Collider other){
@@ -41,7 +37,6 @@ public class Melee : MonoBehaviour
 
 	void DelayedAttack()
 	{
-		Debug.Log ("player attacking");
 		BroadcastMessage("EnableEnemyHitAnimatorFlag", "Wrath_Hit", SendMessageOptions.DontRequireReceiver);
 		for (int i = 0; i<5; i++)
 		{
@@ -71,13 +66,16 @@ public class Melee : MonoBehaviour
 					damage.TakeDamage(DamageAmount);
 					Vector3 dir2 = hit.collider.transform.position - transform.position;
 					dir2.y = 0; // keep the force horizontal
+
+					float AppliedForce = force * (DamageAmount);
+
 					if (hit.collider.rigidbody){ // use AddForce for rigidbodies:
-						hit.collider.rigidbody.AddForce(dir2.normalized * force);
+						hit.collider.rigidbody.AddForce(dir2.normalized * AppliedForce);
 					} else { // use a special script for character controllers:
 						// try to get the enemy's script ImpactReceiver:
 						ImpactReceiver script = hit.collider.GetComponent< ImpactReceiver>();
 						// if it has such script, add the impact force:
-						if (script) script.AddImpact(dir2.normalized * force);
+						if (script) script.AddImpact(dir2.normalized * AppliedForce);
 						
 					}
 					return;
