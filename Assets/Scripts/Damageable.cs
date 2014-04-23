@@ -4,7 +4,7 @@ using System.Collections;
 public class Damageable : MonoBehaviour {
 
 	public bool isDamageable = true;
-	public float Health = 10f;
+	public float Health = 200;
 	public bool isPlayer = true;
 	//public bool isWrath = false;
 	public bool isRMemory = false;
@@ -14,6 +14,11 @@ public class Damageable : MonoBehaviour {
 	public void TakeDamage(float amount)
 	{
 		Health = Health - amount;
+		if (isPlayer) 
+		{
+			GameObject obj = GameObject.FindGameObjectWithTag("HealthCube");
+			obj.SendMessage("updateCurrHealth", Health, SendMessageOptions.DontRequireReceiver);
+		}
 		//renderer.material.color = Color.red;
 		//renderer.material.mainTexture = Texture.Opaque;
 		//yield WaitForSeconds(.1);
@@ -137,5 +142,10 @@ public class Damageable : MonoBehaviour {
 	public float getHealth()
 	{
 		return Health;
+	}
+
+	public void updateHealth(float tag)
+	{
+		Health = tag;
 	}
 }
