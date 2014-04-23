@@ -23,7 +23,7 @@ public class ChestCtrl : MonoBehaviour
 		if(animator)
 		{
 			Vector3 ppos = this.transform.position;
-			if((Application.loadedLevelName != "Game Over") && (Application.loadedLevelName != "MainMenu") && (Application.loadedLevelName != "Victory"))
+			if((Application.loadedLevelName != "Game Over") && (Application.loadedLevelName != "MainMenu") && (Application.loadedLevelName != "Victory") && (Application.loadedLevelName != "OpeningCinematic") && (Application.loadedLevelName != "OpeningCinematic2") && (Application.loadedLevelName != "Instructions"))
 			{
 				ppos = GameObject.FindWithTag ("Player").transform.position;
 			}

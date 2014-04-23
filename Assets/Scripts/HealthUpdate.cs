@@ -24,8 +24,11 @@ public class HealthUpdate : MonoBehaviour
 	{
 		if (level < 6) 
 		{
-			GameObject obj = GameObject.FindGameObjectWithTag("Player");
-			obj.SendMessage("updateHealth", curr_health, SendMessageOptions.DontRequireReceiver);
+			if((Application.loadedLevelName != "OpeningCinematic") && (Application.loadedLevelName != "OpeningCinematic2") && (Application.loadedLevelName != "Instructions") && (Application.loadedLevelName != "MainMenu"))
+			{
+			    GameObject obj = GameObject.FindGameObjectWithTag("Player");
+			    obj.SendMessage("updateHealth", curr_health, SendMessageOptions.DontRequireReceiver);
+			}
 		}
 	}
 

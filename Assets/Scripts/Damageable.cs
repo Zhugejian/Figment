@@ -17,7 +17,7 @@ public class Damageable : MonoBehaviour {
 		if (isPlayer) 
 		{
 			GameObject obj = GameObject.FindGameObjectWithTag("HealthCube");
-		obj.SendMessage("updateCurrHealth", Health, SendMessageOptions.DontRequireReceiver);
+		    obj.SendMessage("updateCurrHealth", Health, SendMessageOptions.DontRequireReceiver);
 		}
 		//renderer.material.color = Color.red;
 		//renderer.material.mainTexture = Texture.Opaque;
@@ -93,6 +93,10 @@ public class Damageable : MonoBehaviour {
 		{
 			if (Health <= 0)
 			{
+				//temp fix
+				GameObject obj = GameObject.FindGameObjectWithTag("HealthCube");
+				obj.SendMessage("updateCurrHealth", Health, SendMessageOptions.DontRequireReceiver);
+
 				if (chestOpened)
 				{
 					SendMessageUpwards("updateHealth", 200f, SendMessageOptions.DontRequireReceiver);
