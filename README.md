@@ -13,7 +13,7 @@ Eric Zhu
 For Windows, run Prototype_2.exe to play!
 
 For Macs, run Prototype_2(Mac).app to play!
-(outdated)
+
 
 Instructions:
 - Move the player with "WASD" or the arrow keys
@@ -21,7 +21,7 @@ Instructions:
 - Drop respawn point with "F"
 - If the player has a respawn point, they will return there upon dying
 - To win, find and open(attack) the repressed memory, which looks like a chest
-
+- Touch a glowing spheres to regenerate your health upon exiting the room
 
 ===
 
@@ -42,6 +42,8 @@ Change log:
 - sifter animations transition much smoother and more accurately
   - lost the idle animation though
 - enemy animation changes upon being hit
+- sifter health does not reset upon room change
+- added a health regen sphere in the start room
 
 
 4/18/14
