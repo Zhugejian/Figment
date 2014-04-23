@@ -13,7 +13,11 @@ public class HealthUpdate : MonoBehaviour
 	// Update is called once per frame
 	void Update () 
 	{
-	
+		string curr_level = Application.loadedLevelName;
+		if ((curr_level == "Game Over") || (curr_level == "Victory"))
+		{
+			curr_health = 200f;
+		}
 	}
 
 	void OnLevelWasLoaded(int level)
@@ -27,6 +31,7 @@ public class HealthUpdate : MonoBehaviour
 
 	public void updateCurrHealth(float tag)
 	{
+		Debug.Log ("receiving" + curr_health);
 		curr_health = tag;
 	}
 }
