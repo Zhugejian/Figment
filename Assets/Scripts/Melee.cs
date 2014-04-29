@@ -43,7 +43,7 @@ public class Melee : MonoBehaviour
 			Vector3 dir = transform.forward;
 			dir += Random.insideUnitSphere * CollisionDiameter;
 			dir.Normalize();
-			
+			Debug.DrawRay(transform.position, transform.position + dir * 5);
 			//Debug.DrawRay(transform.position, transform.position + dir * MeleeRange);
 			
 			RaycastHit[] hits = Physics.RaycastAll(transform.position, dir, MeleeRange);
