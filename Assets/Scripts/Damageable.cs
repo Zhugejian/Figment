@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class Damageable : MonoBehaviour {
-
+	public AudioClip hitsound;
 	public bool isDamageable = true;
 	public float Health = 200;
 	public bool isPlayer = true;
@@ -35,6 +35,7 @@ public class Damageable : MonoBehaviour {
 	
 	// Use this for initialization
 	void Start () {
+		hitsound = (AudioClip)Resources.Load ("hitsound");
 	
 	}
 
