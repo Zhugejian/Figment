@@ -20,7 +20,6 @@ public class AvatarCtrl2 : MonoBehaviour
 	void Start () 
 	{
 		animator = GetComponent<Animator>();
-
 	}
 	
 	void EnablePlayerHitAnimatorFlag(string flag)
@@ -37,6 +36,8 @@ public class AvatarCtrl2 : MonoBehaviour
 	
 	void Update () 
 	{
+//		GameObject child = gameObject.transform.
+//		Debug.Log (child.toString());
 		if(isReadying && (ReadiedPower < 5f))
 		{
 			ReadiedPower = ReadiedPower + 0.025f;
@@ -144,6 +145,8 @@ public class AvatarCtrl2 : MonoBehaviour
 
 				animator.SetTrigger("Priming");
 				isReadying = true;
+
+				SendMessage("ParticlesAppear", SendMessageOptions.DontRequireReceiver);
 			}
 
 			if(isReadying)
@@ -195,6 +198,7 @@ public class AvatarCtrl2 : MonoBehaviour
 				Debug.Log(ReadiedPower);
 				isReadying = false;
 				ReadiedPower = 1.0f;
+				SendMessage("ParticlesDisappear", SendMessageOptions.DontRequireReceiver);
 			}
 
 

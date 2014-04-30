@@ -52,6 +52,7 @@ public class Melee : MonoBehaviour
 //			dir.Normalize();
 //			Debug.DrawRay(transform.position, transform.position + dir * MeleeRange);
 			//Debug.DrawRay(transform.position, transform.position + dir * MeleeRange);
+
 			
 			RaycastHit[] hits = Physics.RaycastAll(transform.position, dir, 50);
 			foreach (RaycastHit hit in hits)
