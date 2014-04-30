@@ -11,7 +11,7 @@ public class AvatarCtrl2 : MonoBehaviour
 	bool NotStarted = true;
 
 	bool isReadying = false;
-	float ReadiedPower = 0.2f;
+	float ReadiedPower = 0.5f;
 	
 	protected Animator animator;
 	

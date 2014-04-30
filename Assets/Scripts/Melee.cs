@@ -3,9 +3,10 @@ using System.Collections;
 
 public class Melee : MonoBehaviour
 {
+	public AudioClip swipe;
 	public float MeleeRange = 2;
 	public float CollisionDiameter = 0.2f;
-	public float DamageAmount = 2.0f;
+	public float DamageAmount = 4.0f;
 	//public GameObject AttackPrefab;
 	public float force = 500; // adjust the impact force
 	
@@ -37,13 +38,14 @@ public class Melee : MonoBehaviour
 
 	void DelayedAttack()
 	{
+		audio.PlayOneShot (swipe);
 		BroadcastMessage("EnableEnemyHitAnimatorFlag", "Wrath_Hit", SendMessageOptions.DontRequireReceiver);
 		for (int i = 0; i<5; i++)
 		{
 			Vector3 dir = transform.forward;
 			dir += Random.insideUnitSphere * CollisionDiameter;
 			dir.Normalize();
-			Debug.DrawRay(transform.position, transform.position + dir * 5);
+			Debug.DrawRay(transform.position, transform.position + dir * 5000);
 			//Debug.DrawRay(transform.position, transform.position + dir * MeleeRange);
 			
 			RaycastHit[] hits = Physics.RaycastAll(transform.position, dir, MeleeRange);

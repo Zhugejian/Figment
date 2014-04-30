@@ -3,6 +3,8 @@ using System.Collections;
 
 public class EnemyMelee : MonoBehaviour
 {
+	//public AudioSource audio;
+	public AudioClip hitsound;
 	public float MeleeRange = 2;
 	public float CollisionDiameter = 0.2f;
 	public float DamageAmount = 2.0f;
@@ -55,6 +57,7 @@ public class EnemyMelee : MonoBehaviour
 				{
 					if(damage.isPlayer == true)
 					{
+						audio.PlayOneShot(hitsound);
 					    //yield return new WaitForSeconds(0.1f);
 						BroadcastMessage("EnableEnemyAttackAnimatorFlag", "Wrath_Attack", SendMessageOptions.DontRequireReceiver);
 						for(int j = 0; j < hit.collider.gameObject.transform.childCount; j++)
