@@ -11,7 +11,7 @@ public class AvatarCtrl2 : MonoBehaviour
 	bool NotStarted = true;
 
 	bool isReadying = false;
-	float ReadiedPower = 0.5f;
+	float ReadiedPower = 1.0f;
 	
 	protected Animator animator;
 	
@@ -194,7 +194,7 @@ public class AvatarCtrl2 : MonoBehaviour
 				SendMessageUpwards("MoveSpeedUpdate", 20, SendMessageOptions.DontRequireReceiver);
 				Debug.Log(ReadiedPower);
 				isReadying = false;
-				ReadiedPower = 0f;
+				ReadiedPower = 1.0f;
 			}
 
 

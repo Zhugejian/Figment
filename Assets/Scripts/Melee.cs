@@ -45,10 +45,15 @@ public class Melee : MonoBehaviour
 			Vector3 dir = transform.forward;
 			dir += Random.insideUnitSphere * CollisionDiameter;
 			dir.Normalize();
-			Debug.DrawRay(transform.position, transform.position + dir * 5000);
+			Debug.DrawRay(transform.position, transform.position + dir * 50);
+
+//			dir = transform.forward;
+//			dir += Random.insideUnitSphere * CollisionDiameter;
+//			dir.Normalize();
+//			Debug.DrawRay(transform.position, transform.position + dir * MeleeRange);
 			//Debug.DrawRay(transform.position, transform.position + dir * MeleeRange);
 			
-			RaycastHit[] hits = Physics.RaycastAll(transform.position, dir, MeleeRange);
+			RaycastHit[] hits = Physics.RaycastAll(transform.position, dir, 50);
 			foreach (RaycastHit hit in hits)
 			{
 				GameObject obj = hit.collider.gameObject;
@@ -80,9 +85,9 @@ public class Melee : MonoBehaviour
 						if (script) script.AddImpact(dir2.normalized * AppliedForce);
 						
 					}
-					return;
 				}
 			}
+			return;
 		}
 	}
 
