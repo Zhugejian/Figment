@@ -4,7 +4,7 @@ using System.Collections;
 
 public class AvatarCtrl2 : MonoBehaviour 
 {
-
+	public PartAbsorby pa;
 	bool isDefault = true;
 	bool FacingBack = true;
 	bool FacingLeft = true;
@@ -146,7 +146,8 @@ public class AvatarCtrl2 : MonoBehaviour
 				animator.SetTrigger("Priming");
 				isReadying = true;
 
-				SendMessage("ParticlesAppear", SendMessageOptions.DontRequireReceiver);
+				pa.ParticlesAppear();
+				//BroadcastMessage("ParticlesAppear", SendMessageOptions.DontRequireReceiver);
 			}
 
 			if(isReadying)
@@ -198,7 +199,8 @@ public class AvatarCtrl2 : MonoBehaviour
 				Debug.Log(ReadiedPower);
 				isReadying = false;
 				ReadiedPower = 1.0f;
-				SendMessage("ParticlesDisappear", SendMessageOptions.DontRequireReceiver);
+				pa.ParticlesDisappear();
+				//SendMessage("ParticlesDisappear", SendMessageOptions.DontRequireReceiver);
 			}
 
 
