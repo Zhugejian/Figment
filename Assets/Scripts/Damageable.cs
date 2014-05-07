@@ -2,6 +2,7 @@
 using System.Collections;
 
 public class Damageable : MonoBehaviour {
+	public HealthUpdate hu;
 	public bool isDamageable = true;
 	public float Health = 200;
 	public bool isPlayer = true;
@@ -15,8 +16,9 @@ public class Damageable : MonoBehaviour {
 		Health = Health - amount;
 		if (isPlayer) 
 		{
-			GameObject obj = GameObject.FindGameObjectWithTag("HealthCube");
-		    obj.SendMessage("updateCurrHealth", Health, SendMessageOptions.DontRequireReceiver);
+			hu.curr_health = Health;
+//			GameObject obj = GameObject.FindGameObjectWithTag("HealthCube");
+//		    obj.SendMessage("updateCurrHealth", Health, SendMessageOptions.DontRequireReceiver);
 		}
 		//renderer.material.color = Color.red;
 		//renderer.material.mainTexture = Texture.Opaque;
@@ -70,22 +72,23 @@ public class Damageable : MonoBehaviour {
 //			if(IU.dropItem()) {
 //				IU.dropItem();
 //			}
-			if(Application.loadedLevelName == "Room2")
-			{
-				CurrentLevel = 2;
-			}
-			else if ((Application.loadedLevelName == "Room3L") || (Application.loadedLevelName == "Room3R"))
-			{
-				CurrentLevel = 3;
-			}
-			else if (Application.loadedLevelName == "Room4")
-			{
-				CurrentLevel = 4;
-			}
-			else
-			{
-				CurrentLevel = 1;
-			}
+			CurrentLevel = Application.loadedLevel;
+//			if(Application.loadedLevelName == "Room2")
+//			{
+//				CurrentLevel = 2;
+//			}
+//			else if ((Application.loadedLevelName == "Room3L") || (Application.loadedLevelName == "Room3R"))
+//			{
+//				CurrentLevel = 3;
+//			}
+//			else if (Application.loadedLevelName == "Room4")
+//			{
+//				CurrentLevel = 4;
+//			}
+//			else
+//			{
+//				CurrentLevel = 1;
+//			}
 			//CurrentLevel = Application.loadedLevelName;
 			Debug.Log(CurrentLevel);
 			chestOpened = true;
@@ -103,22 +106,24 @@ public class Damageable : MonoBehaviour {
 				{
 					SendMessageUpwards("updateHealth", 200f, SendMessageOptions.DontRequireReceiver);
 
-					if (CurrentLevel == 2)
-					{
-						Application.LoadLevel ("Room2");
-					}
-					else if (CurrentLevel == 3)
-					{
-					    Application.LoadLevel ("Room3");
-					}
-					else if (CurrentLevel == 4)
-					{
-						Application.LoadLevel ("Room4");
-					}
-					else
-					{
-						Application.LoadLevel ("Start Room Left Door");
-					}
+					Application.LoadLevel(CurrentLevel);
+
+//					if (CurrentLevel == 2)
+//					{
+//						Application.LoadLevel ("Room2");
+//					}
+//					else if (CurrentLevel == 3)
+//					{
+//					    Application.LoadLevel ("Room3");
+//					}
+//					else if (CurrentLevel == 4)
+//					{
+//						Application.LoadLevel ("Room4");
+//					}
+//					else
+//					{
+//						Application.LoadLevel ("Start Room Left Door");
+//					}
 				    chestOpened = false;
 				}
 				else

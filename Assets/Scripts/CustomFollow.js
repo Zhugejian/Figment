@@ -19,7 +19,7 @@ function Start()
 function Update () 
 {
     distance = Vector3.Distance(target.position, myTransform.position);
-    if(distance <= 40F)
+    if(distance <= 60F)
     {
 	    //rotate to look at the player
 	    myTransform.rotation = Quaternion.Slerp(myTransform.rotation,

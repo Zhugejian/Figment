@@ -11,5 +11,5 @@ function OnMouseExit()
 // Warp to Start Room Left Door on Trigger
 function OnMouseDown() 
 {
-	Application.LoadLevel ("Start Room Left Door");
+	Application.LoadLevel ("TutorialRoom3");
 }

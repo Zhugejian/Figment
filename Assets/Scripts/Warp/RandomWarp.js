@@ -1,5 +1,5 @@
 ﻿var nmes : GameObject[];
-
+var curr : int = 0;
 var rando : int;
 
 function OnTriggerEnter (entity : Collider) {
@@ -10,5 +10,9 @@ function OnTriggerEnter (entity : Collider) {
 	}
 }
 function Awake() {
-	rando = Random.Range(9, 11);
+	curr = Application.loadedLevel;
+	rando = Random.Range(7, 10);
+	while(rando == curr) {
+		rando = Random.Range(7, 10);
+	}
 }

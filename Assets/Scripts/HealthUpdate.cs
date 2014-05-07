@@ -3,7 +3,7 @@ using System.Collections;
 
 public class HealthUpdate : MonoBehaviour 
 {
-	float curr_health = 200;
+	public float curr_health = 200;
 	// Use this for initialization
 	void Start () 
 	{
@@ -16,13 +16,14 @@ public class HealthUpdate : MonoBehaviour
 		string curr_level = Application.loadedLevelName;
 		if ((curr_level == "Game Over") || (curr_level == "Victory"))
 		{
+			Debug.Log ("balkdfj");
 			curr_health = 200f;
 		}
 	}
 
 	void OnLevelWasLoaded(int level)
 	{
-		if (level < 6) 
+		if ((level <= 10) && (level >= 2))
 		{
 			if((Application.loadedLevelName != "OpeningCinematic") && (Application.loadedLevelName != "OpeningCinematic2") && (Application.loadedLevelName != "Instructions") && (Application.loadedLevelName != "MainMenu"))
 			{
@@ -34,7 +35,7 @@ public class HealthUpdate : MonoBehaviour
 
 	public void updateCurrHealth(float tag)
 	{
-		Debug.Log ("receiving" + curr_health);
+		Debug.Log (curr_health);
 		curr_health = tag;
 	}
 }
