@@ -8,12 +8,10 @@ public class PartAbsorby : MonoBehaviour {
 	}
 
 	public void ParticlesAppear () {
-		Debug.Log ("partabyyah");
 		particleSystem.Play ();
 	}
 
 	public void ParticlesDisappear () {
-		Debug.Log ("partabynah");
 		particleSystem.Stop ();
 	}
 

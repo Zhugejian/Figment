@@ -11,5 +11,5 @@ function OnMouseExit()
 // Transition to the Opening Cinematic on Trigger
 function OnMouseDown() 
 {
-	Application.LoadLevel ("OpeningCinematic");
+	Application.LoadLevel ("OpeningCinematic2");
 }

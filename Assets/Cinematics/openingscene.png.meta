@@ -1,0 +1,1305 @@
+fileFormatVersion: 2
+guid: f4e645c7e96495144a758161803c6a76
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: openingscene_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7703
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_1
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 7703
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_2
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 7703
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_3
+      rect:
+        serializedVersion: 2
+        x: 2301
+        y: 7703
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_4
+      rect:
+        serializedVersion: 2
+        x: 3068
+        y: 7703
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_5
+      rect:
+        serializedVersion: 2
+        x: 3835
+        y: 7703
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_6
+      rect:
+        serializedVersion: 2
+        x: 4602
+        y: 7703
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_7
+      rect:
+        serializedVersion: 2
+        x: 5369
+        y: 7703
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_8
+      rect:
+        serializedVersion: 2
+        x: 6136
+        y: 7703
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_9
+      rect:
+        serializedVersion: 2
+        x: 6903
+        y: 7703
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7214
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_11
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 7214
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_12
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 7214
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_13
+      rect:
+        serializedVersion: 2
+        x: 2301
+        y: 7214
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_14
+      rect:
+        serializedVersion: 2
+        x: 3068
+        y: 7214
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_15
+      rect:
+        serializedVersion: 2
+        x: 3835
+        y: 7214
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_16
+      rect:
+        serializedVersion: 2
+        x: 4602
+        y: 7214
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_17
+      rect:
+        serializedVersion: 2
+        x: 5369
+        y: 7214
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_18
+      rect:
+        serializedVersion: 2
+        x: 6136
+        y: 7214
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_19
+      rect:
+        serializedVersion: 2
+        x: 6903
+        y: 7214
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6725
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_21
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 6725
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_22
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 6725
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_23
+      rect:
+        serializedVersion: 2
+        x: 2301
+        y: 6725
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_24
+      rect:
+        serializedVersion: 2
+        x: 3068
+        y: 6725
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_25
+      rect:
+        serializedVersion: 2
+        x: 3835
+        y: 6725
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_26
+      rect:
+        serializedVersion: 2
+        x: 4602
+        y: 6725
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_27
+      rect:
+        serializedVersion: 2
+        x: 5369
+        y: 6725
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_28
+      rect:
+        serializedVersion: 2
+        x: 6136
+        y: 6725
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_29
+      rect:
+        serializedVersion: 2
+        x: 6903
+        y: 6725
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6236
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_31
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 6236
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_32
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 6236
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_33
+      rect:
+        serializedVersion: 2
+        x: 2301
+        y: 6236
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_34
+      rect:
+        serializedVersion: 2
+        x: 3068
+        y: 6236
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_35
+      rect:
+        serializedVersion: 2
+        x: 3835
+        y: 6236
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_36
+      rect:
+        serializedVersion: 2
+        x: 4602
+        y: 6236
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_37
+      rect:
+        serializedVersion: 2
+        x: 5369
+        y: 6236
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_38
+      rect:
+        serializedVersion: 2
+        x: 6136
+        y: 6236
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_39
+      rect:
+        serializedVersion: 2
+        x: 6903
+        y: 6236
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5747
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_41
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 5747
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_42
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 5747
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_43
+      rect:
+        serializedVersion: 2
+        x: 2301
+        y: 5747
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_44
+      rect:
+        serializedVersion: 2
+        x: 3068
+        y: 5747
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_45
+      rect:
+        serializedVersion: 2
+        x: 3835
+        y: 5747
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_46
+      rect:
+        serializedVersion: 2
+        x: 4602
+        y: 5747
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_47
+      rect:
+        serializedVersion: 2
+        x: 5369
+        y: 5747
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_48
+      rect:
+        serializedVersion: 2
+        x: 6136
+        y: 5747
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_49
+      rect:
+        serializedVersion: 2
+        x: 6903
+        y: 5747
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5258
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_51
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 5258
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_52
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 5258
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_53
+      rect:
+        serializedVersion: 2
+        x: 2301
+        y: 5258
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_54
+      rect:
+        serializedVersion: 2
+        x: 3068
+        y: 5258
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_55
+      rect:
+        serializedVersion: 2
+        x: 3835
+        y: 5258
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_56
+      rect:
+        serializedVersion: 2
+        x: 4602
+        y: 5258
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_57
+      rect:
+        serializedVersion: 2
+        x: 5369
+        y: 5258
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_58
+      rect:
+        serializedVersion: 2
+        x: 6136
+        y: 5258
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_59
+      rect:
+        serializedVersion: 2
+        x: 6903
+        y: 5258
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4769
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_61
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 4769
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_62
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 4769
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_63
+      rect:
+        serializedVersion: 2
+        x: 2301
+        y: 4769
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_64
+      rect:
+        serializedVersion: 2
+        x: 3068
+        y: 4769
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_65
+      rect:
+        serializedVersion: 2
+        x: 3835
+        y: 4769
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_66
+      rect:
+        serializedVersion: 2
+        x: 4602
+        y: 4769
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_67
+      rect:
+        serializedVersion: 2
+        x: 5369
+        y: 4769
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_68
+      rect:
+        serializedVersion: 2
+        x: 6136
+        y: 4769
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_69
+      rect:
+        serializedVersion: 2
+        x: 6903
+        y: 4769
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4280
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_71
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 4280
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_72
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 4280
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_73
+      rect:
+        serializedVersion: 2
+        x: 2301
+        y: 4280
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_74
+      rect:
+        serializedVersion: 2
+        x: 3068
+        y: 4280
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_75
+      rect:
+        serializedVersion: 2
+        x: 3835
+        y: 4280
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_76
+      rect:
+        serializedVersion: 2
+        x: 4602
+        y: 4280
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_77
+      rect:
+        serializedVersion: 2
+        x: 5369
+        y: 4280
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_78
+      rect:
+        serializedVersion: 2
+        x: 6136
+        y: 4280
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_79
+      rect:
+        serializedVersion: 2
+        x: 6903
+        y: 4280
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3791
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_81
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 3791
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_82
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 3791
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_83
+      rect:
+        serializedVersion: 2
+        x: 2301
+        y: 3791
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_84
+      rect:
+        serializedVersion: 2
+        x: 3068
+        y: 3791
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_85
+      rect:
+        serializedVersion: 2
+        x: 3835
+        y: 3791
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_86
+      rect:
+        serializedVersion: 2
+        x: 4602
+        y: 3791
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_87
+      rect:
+        serializedVersion: 2
+        x: 5369
+        y: 3791
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_88
+      rect:
+        serializedVersion: 2
+        x: 6136
+        y: 3791
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_89
+      rect:
+        serializedVersion: 2
+        x: 6903
+        y: 3791
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3302
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_91
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 3302
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_92
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 3302
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_93
+      rect:
+        serializedVersion: 2
+        x: 2301
+        y: 3302
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_94
+      rect:
+        serializedVersion: 2
+        x: 3068
+        y: 3302
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_95
+      rect:
+        serializedVersion: 2
+        x: 3835
+        y: 3302
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_96
+      rect:
+        serializedVersion: 2
+        x: 4602
+        y: 3302
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_97
+      rect:
+        serializedVersion: 2
+        x: 5369
+        y: 3302
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_98
+      rect:
+        serializedVersion: 2
+        x: 6136
+        y: 3302
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_99
+      rect:
+        serializedVersion: 2
+        x: 6903
+        y: 3302
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_100
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2813
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_101
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 2813
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_102
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 2813
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_103
+      rect:
+        serializedVersion: 2
+        x: 2301
+        y: 2813
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_104
+      rect:
+        serializedVersion: 2
+        x: 3068
+        y: 2813
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_105
+      rect:
+        serializedVersion: 2
+        x: 3835
+        y: 2813
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_106
+      rect:
+        serializedVersion: 2
+        x: 4602
+        y: 2813
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_107
+      rect:
+        serializedVersion: 2
+        x: 5369
+        y: 2813
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_108
+      rect:
+        serializedVersion: 2
+        x: 6136
+        y: 2813
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_109
+      rect:
+        serializedVersion: 2
+        x: 6903
+        y: 2813
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_110
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2324
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_111
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 2324
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_112
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 2324
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_113
+      rect:
+        serializedVersion: 2
+        x: 2301
+        y: 2324
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_114
+      rect:
+        serializedVersion: 2
+        x: 3068
+        y: 2324
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_115
+      rect:
+        serializedVersion: 2
+        x: 3835
+        y: 2324
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_116
+      rect:
+        serializedVersion: 2
+        x: 4602
+        y: 2324
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_117
+      rect:
+        serializedVersion: 2
+        x: 5369
+        y: 2324
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_118
+      rect:
+        serializedVersion: 2
+        x: 6136
+        y: 2324
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_119
+      rect:
+        serializedVersion: 2
+        x: 6903
+        y: 2324
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1835
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_121
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 1835
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_122
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 1835
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_123
+      rect:
+        serializedVersion: 2
+        x: 2301
+        y: 1835
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_124
+      rect:
+        serializedVersion: 2
+        x: 3068
+        y: 1835
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_125
+      rect:
+        serializedVersion: 2
+        x: 3835
+        y: 1835
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_126
+      rect:
+        serializedVersion: 2
+        x: 4602
+        y: 1835
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_127
+      rect:
+        serializedVersion: 2
+        x: 5369
+        y: 1835
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_128
+      rect:
+        serializedVersion: 2
+        x: 6136
+        y: 1835
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_129
+      rect:
+        serializedVersion: 2
+        x: 6903
+        y: 1835
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_130
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1346
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_131
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 1346
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_132
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 1346
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_133
+      rect:
+        serializedVersion: 2
+        x: 2301
+        y: 1346
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_134
+      rect:
+        serializedVersion: 2
+        x: 3068
+        y: 1346
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_135
+      rect:
+        serializedVersion: 2
+        x: 3835
+        y: 1346
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_136
+      rect:
+        serializedVersion: 2
+        x: 4602
+        y: 1346
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_137
+      rect:
+        serializedVersion: 2
+        x: 5369
+        y: 1346
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_138
+      rect:
+        serializedVersion: 2
+        x: 6136
+        y: 1346
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: openingscene_139
+      rect:
+        serializedVersion: 2
+        x: 6903
+        y: 1346
+        width: 767
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+  spritePackingTag: 
+  userData: 

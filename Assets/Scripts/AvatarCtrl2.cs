@@ -4,6 +4,7 @@ using System.Collections;
 
 public class AvatarCtrl2 : MonoBehaviour 
 {
+	public Shoot sh;
 	public PartAbsorby pa;
 	bool isDefault = true;
 	bool FacingBack = true;
@@ -11,11 +12,16 @@ public class AvatarCtrl2 : MonoBehaviour
 	bool NotStarted = true;
 
 	bool isReadying = false;
-	float ReadiedPower = 1.0f;
+	public float ReadiedPower = 0.5f;
+	public float lastReadied = 0.5f;
 	
 	protected Animator animator;
 	
 	//public float DirectionDampTime = .25f;
+
+	public float getReadiedPower() {
+		return this.lastReadied;
+	}
 
 	void Start () 
 	{
@@ -155,38 +161,46 @@ public class AvatarCtrl2 : MonoBehaviour
 
 				if((Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow)) && FacingLeft && !(isDefault))
 				{
+					Debug.Log ("ul got called");
 					transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
 					isDefault = true;
+//					sh.changeDir("ul");
 				}
 
 				if((Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow)) && !(FacingLeft) && isDefault)
 				{
 					transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
 					isDefault = false;
+//					sh.changeDir("ur");
 				}
 
 				if((Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow)) && FacingLeft && !(isDefault))
 				{
 					transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
 					isDefault = true;
+					Debug.Log ("got called");
+//					sh.direction = "dl";
 				}
 
 				if((Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow)) && !(FacingLeft) && isDefault)
 				{
 					transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
 					isDefault = false;
+//					sh.direction = "dr";
 				}
 
 				if((Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow)) && !(isDefault))
 				{
 					transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
 					isDefault = true;
+//					sh.direction = "left";
 				}
 
 				if((Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow)) && isDefault)
 				{
 					transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
 					isDefault = false;
+//					sh.direction = "right";
 				}
 				SendMessageUpwards("MoveSpeedUpdate", 8, SendMessageOptions.DontRequireReceiver);
 			}
@@ -198,7 +212,8 @@ public class AvatarCtrl2 : MonoBehaviour
 				SendMessageUpwards("MoveSpeedUpdate", 20, SendMessageOptions.DontRequireReceiver);
 				Debug.Log(ReadiedPower);
 				isReadying = false;
-				ReadiedPower = 1.0f;
+				lastReadied = ReadiedPower;
+				ReadiedPower = 0.5f;
 				pa.ParticlesDisappear();
 				//SendMessage("ParticlesDisappear", SendMessageOptions.DontRequireReceiver);
 			}

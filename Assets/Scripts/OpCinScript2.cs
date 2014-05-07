@@ -9,19 +9,19 @@ public class OpCinScript2 : MonoBehaviour {
 	void OnMouseDown()
 	{
 		//Destroy (intsong);
-		Application.LoadLevel ("Start Room Left Door");
+		Application.LoadLevel ("TutorialRoom1");
 	}
 
 	IEnumerator WaitForIt()
 	{
-		yield return new WaitForSeconds (2.6f);
+		yield return new WaitForSeconds (10.0f);
 
 		back.transform.position += Vector3.back * 10F;
 
 		yield return new WaitForSeconds (1.0f);
 
 		//Destroy (intsong);
-		Application.LoadLevel ("Start Room Left Door");
+		Application.LoadLevel ("TutorialRoom1");
 	}
 
 	// Use this for initialization
