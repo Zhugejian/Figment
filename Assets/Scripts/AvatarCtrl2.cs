@@ -13,15 +13,10 @@ public class AvatarCtrl2 : MonoBehaviour
 
 	bool isReadying = false;
 	public float ReadiedPower = 0.5f;
-	public float lastReadied = 0.5f;
-	
-	protected Animator animator;
-	
-	//public float DirectionDampTime = .25f;
 
-	public float getReadiedPower() {
-		return this.lastReadied;
-	}
+	GameObject bullet;
+
+	protected Animator animator;
 
 	void Start () 
 	{
@@ -42,11 +37,11 @@ public class AvatarCtrl2 : MonoBehaviour
 	
 	void Update () 
 	{
-//		GameObject child = gameObject.transform.
-//		Debug.Log (child.toString());
-		if(isReadying && (ReadiedPower < 5f))
+		GameObject scal = GameObject.Find ("ParticleCube");
+		scal.SendMessage ("updateScaler", ReadiedPower, SendMessageOptions.DontRequireReceiver);
+		if(isReadying && (ReadiedPower < 8f))
 		{
-			ReadiedPower = ReadiedPower + 0.025f;
+			ReadiedPower = ReadiedPower + 0.05f;
 		}
 		if(animator)
 		{
@@ -212,7 +207,6 @@ public class AvatarCtrl2 : MonoBehaviour
 				SendMessageUpwards("MoveSpeedUpdate", 20, SendMessageOptions.DontRequireReceiver);
 				Debug.Log(ReadiedPower);
 				isReadying = false;
-				lastReadied = ReadiedPower;
 				ReadiedPower = 0.5f;
 				pa.ParticlesDisappear();
 				//SendMessage("ParticlesDisappear", SendMessageOptions.DontRequireReceiver);

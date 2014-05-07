@@ -6,8 +6,7 @@ public class ChestCtrl : MonoBehaviour
 {
 	public static bool IsOpened = false;
 	protected Animator animator;
-	
-	public float DirectionDampTime = .25f;
+	public ItemUpdate IU;
 	
 	void Start () 
 	{
@@ -20,23 +19,32 @@ public class ChestCtrl : MonoBehaviour
 	void Update () 
 	{
 
+
 		if(animator)
 		{
 			Vector3 ppos = this.transform.position;
-			if((Application.loadedLevelName != "Game Over") && (Application.loadedLevelName != "MainMenu") && (Application.loadedLevelName != "Victory") && (Application.loadedLevelName != "OpeningCinematic") && (Application.loadedLevelName != "OpeningCinematic2") && (Application.loadedLevelName != "Instructions"))
+			if((Application.loadedLevelName != "Game Over") && (Application.loadedLevelName != "MainMenu") && (Application.loadedLevelName != "Victory") && (Application.loadedLevelName != "OpeningCinematic2"))
 			{
 				ppos = GameObject.FindWithTag ("Player").transform.position;
 			}
 
 			if (Input.GetKeyDown (KeyCode.F))
 			{
+				if(IU.dropItem()) {
+					ppos.y = 5;
+					this.transform.position = ppos;
+					IU.dropItem();
+				}
+//				if(GameObject.FindGameObjectWithTag("Item Cube") != null) {
+//					GameObject dropper = GameObject.FindGameObjectWithTag("Item Cube");
+//				SendMessageUpwards("dropItem", SendMessageOptions.DontRequireReceiver);
+//				}
 //				if(ppos != this.transform.position)
 //				{
 //					Debug.Log (IsOpened);
 //					animator.SetBool("IsOpened", false );
 //				}
-				ppos.y = 5;
-				this.transform.position = ppos;
+
 			}
 
 			//get the current state
@@ -55,13 +63,6 @@ public class ChestCtrl : MonoBehaviour
 //					animator.SetBool("IsOpened", false);
 //			    }
 			}
-			
-			//float h = Input.GetAxis("Horizontal");
-			//float v = Input.GetAxis("Vertical");
-			
-			//set event parameters based on user input
-			//animator.SetFloat("Speed", h*h+v*v);
-			//animator.SetFloat("Direction", h, DirectionDampTime, Time.deltaTime);
 		}		
 	}   		  
 }

@@ -48,7 +48,7 @@ TextureImporter:
         y: 2373
         width: 284
         height: 774
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
     - name: items_1
       rect:
@@ -57,7 +57,7 @@ TextureImporter:
         y: 2374
         width: 292
         height: 728
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
     - name: items_2
       rect:
@@ -66,7 +66,7 @@ TextureImporter:
         y: 1216
         width: 1060
         height: 706
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
     - name: items_3
       rect:
@@ -75,7 +75,7 @@ TextureImporter:
         y: 1857
         width: 664
         height: 363
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
     - name: items_4
       rect:
@@ -84,7 +84,7 @@ TextureImporter:
         y: 202
         width: 527
         height: 621
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
     - name: items_5
       rect:
@@ -93,7 +93,7 @@ TextureImporter:
         y: 625
         width: 546
         height: 414
-      alignment: 0
+      alignment: 7
       pivot: {x: 0, y: 0}
   spritePackingTag: 
   userData: 

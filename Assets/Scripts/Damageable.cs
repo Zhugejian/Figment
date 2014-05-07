@@ -67,6 +67,9 @@ public class Damageable : MonoBehaviour {
 	void Update () {
 		if(Input.GetKeyDown(KeyCode.F))
 		{
+//			if(IU.dropItem()) {
+//				IU.dropItem();
+//			}
 			if(Application.loadedLevelName == "Room2")
 			{
 				CurrentLevel = 2;
@@ -140,6 +143,11 @@ public class Damageable : MonoBehaviour {
 
 		else if(Health <= 0)
 		{
+			GameObject nme = GameObject.Find("BossWrath");
+			if(GameObject.Find("BossWrath") != null) {
+				//GameObject nme = GameObject.Find("BossWrath");
+				nme.SendMessage("leavingLoot", true, SendMessageOptions.DontRequireReceiver);
+			}
 			Destroy(this.gameObject);
 		}
 	}

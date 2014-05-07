@@ -1,0 +1,558 @@
+fileFormatVersion: 2
+guid: c6d7e813bd3505545af05bb37f8e359b
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: 0
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: minion_0
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 1910
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: minion_1
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 1910
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: minion_2
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 1910
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: minion_3
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 1910
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: minion_4
+      rect:
+        serializedVersion: 2
+        x: 1578
+        y: 1912
+        width: 67
+        height: 90
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: minion_5
+      rect:
+        serializedVersion: 2
+        x: 1909
+        y: 1912
+        width: 67
+        height: 90
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: minion_6
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1774
+        width: 67
+        height: 90
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: minion_7
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 1774
+        width: 67
+        height: 90
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: minion_8
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 1780
+        width: 59
+        height: 87
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: minion_9
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 1780
+        width: 59
+        height: 87
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: minion_10
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 1780
+        width: 59
+        height: 87
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: minion_11
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 1780
+        width: 59
+        height: 87
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: minion_12
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1639
+        width: 63
+        height: 91
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: minion_13
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 1639
+        width: 63
+        height: 91
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: minion_14
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 1639
+        width: 63
+        height: 91
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: minion_15
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 1639
+        width: 63
+        height: 91
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: minion_16
+      rect:
+        serializedVersion: 2
+        x: 1579
+        y: 1642
+        width: 65
+        height: 83
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: minion_17
+      rect:
+        serializedVersion: 2
+        x: 1910
+        y: 1642
+        width: 65
+        height: 83
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: minion_18
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1504
+        width: 65
+        height: 83
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: minion_19
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 1504
+        width: 65
+        height: 83
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: minion_20
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 1496
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: minion_21
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 1496
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: minion_22
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 1496
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: minion_23
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 1496
+        width: 96
+        height: 96
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: minion_24
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1360
+        width: 67
+        height: 90
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: minion_25
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 1360
+        width: 67
+        height: 90
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: minion_26
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 1360
+        width: 67
+        height: 90
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: minion_27
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 1360
+        width: 67
+        height: 90
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: minion_28
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 1366
+        width: 59
+        height: 87
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: minion_29
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 1366
+        width: 59
+        height: 87
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: minion_30
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1228
+        width: 59
+        height: 87
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: minion_31
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 1228
+        width: 59
+        height: 87
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: minion_32
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 1225
+        width: 63
+        height: 91
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: minion_33
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 1225
+        width: 63
+        height: 91
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: minion_34
+      rect:
+        serializedVersion: 2
+        x: 1581
+        y: 1225
+        width: 63
+        height: 91
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: minion_35
+      rect:
+        serializedVersion: 2
+        x: 1912
+        y: 1225
+        width: 63
+        height: 91
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: minion_36
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1090
+        width: 65
+        height: 83
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: minion_37
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 1090
+        width: 65
+        height: 83
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: minion_38
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 1090
+        width: 65
+        height: 83
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: minion_39
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 1090
+        width: 65
+        height: 83
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: minion_40
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 1104
+        width: 64
+        height: 101
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: minion_41
+      rect:
+        serializedVersion: 2
+        x: 1732
+        y: 1129
+        width: 75
+        height: 91
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: minion_42
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 993
+        width: 59
+        height: 88
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: minion_43
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 965
+        width: 52
+        height: 106
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: minion_44
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 965
+        width: 53
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: minion_45
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 997
+        width: 79
+        height: 85
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: minion_46
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 970
+        width: 65
+        height: 100
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: minion_47
+      rect:
+        serializedVersion: 2
+        x: 1746
+        y: 962
+        width: 63
+        height: 107
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: minion_48
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 828
+        width: 64
+        height: 101
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: minion_49
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 853
+        width: 75
+        height: 91
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: minion_50
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 855
+        width: 59
+        height: 88
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: minion_51
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 827
+        width: 52
+        height: 106
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: minion_52
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 827
+        width: 53
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: minion_53
+      rect:
+        serializedVersion: 2
+        x: 1732
+        y: 859
+        width: 79
+        height: 85
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: minion_54
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 694
+        width: 65
+        height: 100
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: minion_55
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 686
+        width: 63
+        height: 107
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: minion_56
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 689
+        width: 58
+        height: 92
+      alignment: 7
+      pivot: {x: 0, y: 0}
+  spritePackingTag: 
+  userData: 
